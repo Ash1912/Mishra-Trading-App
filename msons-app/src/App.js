@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Choose from "./components/Choose";
 import Home from "./components/Home";
 import "./scss/index.scss";
+// import About from "./components/About";
 import Services from "./components/Services";
 import Categories from "./components/Categories";
 import Recommend from "./components/Recommend";
@@ -53,6 +54,7 @@ function App() {
       <ScrollTop />
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
+      {/* <About /> */}
       <Services />
       <Categories />
       <Recommend />
