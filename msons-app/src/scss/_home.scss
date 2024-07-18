@@ -5,31 +5,37 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    align-items: center; // Center content vertically and horizontally
+    justify-content: center;
+    padding: 2rem;
+    margin: auto; // Ensure it's centered on the page
     .title-container {
       display: flex;
       flex-direction: column;
       gap: 1rem;
       align-items: center;
+      // width: 100%; // Ensuring full usage of container width
       h2 {
         text-align: center;
         text-transform: uppercase;
         color: var(--dark-blue);
+        font-size: 2.5rem; // Appropriate font size for readability
       }
       .input-container {
+        width: 80%; // Adjust based on design preference
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 1rem;
         background-color: var(--background);
         padding: 0.5rem;
-        color: var(--dark-blue);
-        width: 100%;
         border-radius: 1rem;
+        color: var(--dark-blue);
         input {
           padding-left: 1rem;
           border: none;
-          font-size: 1rem;
-          width: 70%;
+          font-size: 1rem; // Ensuring readability
+          width: 70%; // Controlled input width
           background-color: var(--background);
           color: var(--dark-blue);
           &:focus {
@@ -50,48 +56,51 @@
           }
           svg {
             color: white;
-            font-size: 1.3rem;
+            font-size: 1.3rem; // Adjusted icon size for interaction
           }
         }
       }
     }
     .extra-image {
+      flex: 1; // This makes the image take up the remaining space
+      padding-left: 6rem; // Shift the image slightly to the right
       img {
-        max-inline-size: 100%;
-        block-size: auto;
+        width: 100%; // Ensures the image takes full width of the container
+        height: auto; // Maintains aspect ratio
+        object-fit: cover; // Ensures the image covers the area without being stretched
+        max-height: 300px; // Limits the height to ensure uniformity
+        border-radius: 6px; // Optional styling
       }
     }
   }
   @media only screen and (min-device-width: 768px) {
-    margin: 2rem;
+    margin: 5rem;
     border-radius: 1rem;
     .container {
+      flex-direction: row; // Switch to row layout for wider screens
       .title-container {
-        h2 {
-          font-size: 3.5rem;
-        }
+        flex: 1;
         .input-container {
-          width: 80%;
+          width: 80%; // Adjust width for larger screens
+        }
+      }
+      .extra-image {
+        flex: 1;
+        img {
+          max-height: 500px; // Increase maximum height on larger screens
         }
       }
     }
   }
   @media screen and (min-device-width: 1200px) {
-    margin: 0 5rem;
+    margin: 5rem;
     .container {
-      flex-direction: row;
+      // margin: 0 5rem;
       gap: 1rem;
       padding: 2rem 4rem;
-      .title-container {
-        align-items: flex-start;
-        h2 {
-          text-align: start;
-        }
-      }
       .extra-image {
         img {
-          height: 25rem;
-          max-inline-size: none;
+          max-width: 500px; // Further control image width on very large screens
         }
       }
     }

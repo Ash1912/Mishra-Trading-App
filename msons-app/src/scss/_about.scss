@@ -1,56 +1,60 @@
 .about {
-    .about-hero {
-      background-color: var(--blue-background);
-      text-align: center;
-      padding: 100px 20px;
-      color: white;
+  padding: 4rem 0;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
-      .hero-content {
-        max-width: 600px;
-        margin: 0 auto;
-  
-        h1 {
-          font-size: 2.5rem;
-          margin-bottom: 20px;
-        }
-  
-        p {
-          font-size: 1.2rem;
-          line-height: 1.6;
-        }
-      }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; // Ensures space between text and image
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--container-background);
+
+    @media (min-width: 768px) {
+      flex-direction: row;
     }
-  
-    .container {
-      max-width: 1200px;
-      margin: auto;
-      padding: 50px 20px;
-  
-      section {
-        margin-bottom: 40px;
-        padding: 30px;
-        background: var(--section-background-color);
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  
-        h2 {
-          margin-bottom: 20px;
-          color: var(--accent-color);
-        }
-  
-        p, ul {
-          line-height: 1.6;
-        }
-  
-        img {
-          width: 100%;
-          max-width: 800px;
-          height: auto;
-          display: block;
-          margin: 20px auto;
-          border-radius: 5px;
-        }
-      }
+    
+    .text-content {
+      flex: 1;
+      padding-left: 3rem;
+      padding-right: 6rem; // Adds right padding for spacing between text and image
+    }
+
+    .image-content {
+      flex: 1;
+      padding-left: 2rem; // Adds left padding for spacing
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    img {
+      width: 100%;
+      max-width: 500px; // Limit image size to not overwhelm the text
+      height: auto;
+      border-radius: 6px; // Optional: rounded corners for images
     }
   }
-  
+}
+
+// Theme-specific styles
+[data-theme="dark"] .about {
+  --text-color: #8eecf5; // Light blue text color for dark theme
+  --container-background: #12131d; // Dark gray container background for dark theme
+}
+
+[data-theme="light"] .about {
+  --text-color: #03045e; // Dark blue text color for light theme
+  --container-background: #caf0f8; // Light blue container background for light theme
+}

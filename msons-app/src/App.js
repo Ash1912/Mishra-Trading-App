@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Choose from "./components/Choose";
 import Home from "./components/Home";
 import "./scss/index.scss";
-// import About from "./components/About";
+import About from "./components/About";
 import Services from "./components/Services";
 import Categories from "./components/Categories";
 import Recommend from "./components/Recommend";
@@ -30,6 +30,7 @@ function App() {
         `
         nav,
         .home,
+        .about,
         .services-container,
         .categories-container,
         .recommend-container,
@@ -54,7 +55,7 @@ function App() {
       <ScrollTop />
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
-      {/* <About /> */}
+      <About />
       <Services />
       <Categories />
       <Recommend />

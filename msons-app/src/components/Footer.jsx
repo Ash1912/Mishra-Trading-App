@@ -26,10 +26,10 @@ function Footer() {
       type: "Company",
       subTypes: ["About", "Terms", "Privacy Policy", "Careers"],
     },
-    {
-      type: "More",
-      subTypes: ["Documentation", "License", "Changelog"],
-    },
+    // {
+    //   type: "More",
+    //   subTypes: ["Documentation", "License", "Changelog"],
+    // },
   ];
   const socialLinks = [
     <BsFacebook />,
@@ -41,11 +41,13 @@ function Footer() {
     <footer className="py-3 mx-3">
       <div className="brand-container">
         <div className="brand">
-          <span>ehya</span>
+          <span>Mishra Traders</span>
           <span className="dot">.</span>
         </div>
         <p className="description">
-          Build a modern and creative website with crealand
+        Address: Shop no. 05, Shamaruf, PanDariba Gali, Gorakhpur 
+        Phone Number: +91 9335975525, +91 9415550966
+        Proprietor: Ashram Mishra
         </p>
 
         <ul className="social-links">

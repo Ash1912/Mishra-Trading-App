@@ -1,42 +1,35 @@
-import React from "react";
-import teamImage from '../assets/images/home1.jpg'; // Example team image path
-import companyHistoryImage from '../assets/images/Logo_MTC.jpg'; // Example history image path
+import React, { useState, useEffect } from 'react';
+import team1 from '../assets/images/cosmetics1.jpg'; // Adjust the path as necessary
+import team2 from '../assets/images/cosmetics2.jpg';
+import team3 from '../assets/images/cosmetics3.jpg';
 
 function About() {
-    return (
-        <div className="about">
-            <section className="about-hero">
-                <div className="hero-content">
-                    <h1>About Us</h1>
-                    <p>Discover more about our journey, values, and the people who make our company great.</p>
-                </div>
-            </section>
-            <div className="container">
-                <section className="company-history">
-                    <h2>Our History</h2>
-                    <img src={companyHistoryImage} alt="Company History" />
-                    <p>Since our inception in 2000, we've been pioneers in our industry...</p>
-                </section>
-                <section className="mission-vision">
-                    <h2>Mission & Vision</h2>
-                    <p>Our mission is to deliver excellence...</p>
-                </section>
-                <section className="our-team">
-                    <h2>Meet Our Team</h2>
-                    <img src={teamImage} alt="Our Team" />
-                    <p>Our team is our greatest asset...</p>
-                </section>
-                <section className="our-values">
-                    <h2>Our Values</h2>
-                    <ul>
-                        <li>Integrity and Ethics</li>
-                        <li>Customer Commitment</li>
-                        <li>Innovation and Excellence</li>
-                    </ul>
-                </section>
-            </div>
+  const [imageSrc, setImageSrc] = useState(team1);
+
+  useEffect(() => {
+    const images = [team1, team2, team3];
+    let index = 0;
+    const intervalId = setInterval(() => {
+      index = (index + 1) % images.length;
+      setImageSrc(images[index]);
+    }, 3000); // Change image every 3 seconds
+
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return (
+    <div className="about">
+      <div className="container mx-3 py-3">
+        <div className="text-content">
+          <h2>About Our Company</h2>
+          <p>Learn more about our values, our journey, and how we strive to provide outstanding solutions for our customers.</p>
         </div>
-    );
+        <div className="image-content">
+          <img src={imageSrc} alt="About Us" />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default About;

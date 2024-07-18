@@ -48,10 +48,11 @@ body {
   transition: var(--transition);
 }
 
-html,
-body,
+// html,
+// body,
 .app {
-  overflow: visible;
+  overflow-x: hidden; // Ensure horizontal scrolling is disabled
+  width: 100%; // Set width to prevent horizontal overflow
 }
 
 ul {
@@ -79,7 +80,7 @@ ul {
   html,
   body,
   .app {
-    max-width: 100vw;
+    // max-width: 100vw;
     overflow-x: hidden;
   }
 
@@ -93,3 +94,5 @@ ul {
     margin: 0 5rem;
   }
 }
+
+
