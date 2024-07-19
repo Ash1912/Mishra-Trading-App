@@ -41,12 +41,12 @@ function Footer() {
     <footer className="py-3 mx-3">
       <div className="brand-container">
         <div className="brand">
-          <span>Mishra Traders</span>
+          <span>Mishra Trading</span>
           <span className="dot">.</span>
         </div>
         <p className="description">
-        Address: Shop no. 05, Shamaruf, PanDariba Gali, Gorakhpur 
-        Phone Number: +91 9335975525, +91 9415550966
+        Address: Gorakhpur 
+        Contact Number: +91 9335975525, +91 9415550966
         Proprietor: Ashram Mishra
         </p>
 

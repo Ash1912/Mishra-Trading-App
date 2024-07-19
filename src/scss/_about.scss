@@ -7,8 +7,10 @@
   
   .container {
     display: flex;
+    flex-direction: column; // Stack vertically on smaller screens
+    gap: 2rem;
     align-items: center;
-    justify-content: space-between; // Ensures space between text and image
+    justify-content: center; // Ensures text and image
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

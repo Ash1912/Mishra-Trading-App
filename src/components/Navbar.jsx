@@ -23,7 +23,7 @@ function Navbar({ changeTheme, currentTheme }) {
       <div className="container py-3 mx-3">
         <div className="brand">
           <img src={logo} alt="Mishra Trading Company Logo" className="logo" />
-          <span>Mishra Traders </span>
+          <span>Mishra Trading</span>
           <span className="dot">.</span>
         </div>
         <div className="links-container" onClick={(e) => e.stopPropagation()}>
