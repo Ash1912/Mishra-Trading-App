@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { HiArrowSmRight } from "react-icons/hi";
+import { Link } from 'react-scroll';
 import cosmetics1 from "../assets/images/cosmetics1.jpg";
 import cosmetics2 from "../assets/images/cosmetics2.jpg";
 import cosmetics3 from "../assets/images/cosmetics3.jpg";
@@ -71,7 +72,9 @@ function Services() {
         <div className="service one">
           {/* <p>Weekly Deals</p> */}
           <h4>Cosmetics Products</h4>
-          <button>Learn More</button>
+          <Link to="categories-container" smooth={true} duration={1000} className="learnMore-link" activeClass="active">
+          <button>Learn More</button> 
+          </Link>
           <div className="image">
             <img src={currentCosmeticImage} alt="Cosmetic Service" />
           </div>
@@ -79,9 +82,11 @@ function Services() {
         <div className="service two">
           <div className="content">
             <h4>Skincare Products</h4>
+            <Link to="categories-container" smooth={true} duration={1000} className="learnMore-link" activeClass="active">
             <p>
               Learn More <HiArrowSmRight />
             </p>
+            </Link>
           </div>
           <div className="image">
             <img src={currentSkincareImage} alt="Skincare Service" />
@@ -93,17 +98,21 @@ function Services() {
           </div>
           <div className="content">
             <h4>Gift Products</h4>
+            <Link to="categories-container" smooth={true} duration={1000} className="learnMore-link" activeClass="active">
             <p>
               Learn More <HiArrowSmRight />
             </p>
+            </Link>
           </div>
         </div>
         <div className="service four">
           {/* <p>EhyaVersarry Monthly Deals</p> */}
           <h4>Perfume Products</h4>
-          <p>
-            Learn More <HiArrowSmRight />
-          </p>
+          <Link to="categories-container" smooth={true} duration={1000} className="learnMore-link" activeClass="active">
+            <p>
+              Learn More <HiArrowSmRight />
+            </p>
+            </Link>
           <div className="image">
           <img src={currentPerfumeImage} alt="Perfume Service" />
           </div>

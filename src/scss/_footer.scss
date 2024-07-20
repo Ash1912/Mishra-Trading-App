@@ -32,6 +32,13 @@ footer {
     .description {
       color: var(--dark-blue);
       margin-bottom: 1rem; // Space below the description
+      span {
+        display: block; // Ensures the text breaks into separate lines
+        font-family: 'Arial', sans-serif; // Different font for description
+        &:nth-child(1) { font-style: italic; }
+        &:nth-child(2) { font-style: italic; font-weight: bold; }
+        &:nth-child(3) { font-style: italic; font-size: 1.25em; }
+      }
     }
 
     .social-links {

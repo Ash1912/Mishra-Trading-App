@@ -12,6 +12,7 @@ import Promo from "./components/Promo";
 import ScrollTop from "./components/ScrollTop";
 import Footer from "./components/Footer";
 import scrollreveal from "scrollreveal";
+import Contact from "./components/Contact";
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -37,6 +38,7 @@ function App() {
         .choose-us-container,
         .products-container,
         .promo-container,
+        .contact,
         footer
     `,
         {
@@ -62,6 +64,7 @@ function App() {
       <Choose />
       <Products />
       <Promo />
+      <Contact />
       <Footer />
     </div>
   );

@@ -45,9 +45,9 @@ function Footer() {
           <span className="dot">.</span>
         </div>
         <p className="description">
-        Address: Gorakhpur 
-        Contact Number: +91 9335975525, +91 9415550966
-        Proprietor: Ashram Mishra
+        <span>Address: Pandey Hata Rd, TP Nagar, Basantpur, Gorakhpur, Uttar Pradesh 273003<br/></span>
+        <span>Contact Number: +91 9335975525, +91 9415550966<br/></span>
+        <span>Proprietor: Ashram Mishra</span>
         </p>
 
         <ul className="social-links">
@@ -64,7 +64,7 @@ function Footer() {
               <ul>
                 {subTypes.map((type, index) => (
                   <li key={index}>
-                    <a href="#ty">{type}</a>
+                    <a href="#home">{type}</a>
                   </li>
                 ))}
               </ul>

@@ -5,10 +5,10 @@ function MostSold() {
     <div className="most-sold-container">
       <div className="container">
         <div className="title-container">
-          <h2>Most Solid in Ehya Store</h2>
+          <h2>Most Solid in Mishra Trading Store</h2>
           <p>
             This is the section about the data which product with most sold in
-            Ehya Store.
+            Mishra Trading Store.
           </p>
         </div>
       </div>

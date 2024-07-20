@@ -69,7 +69,7 @@ function Categories() {
     <div className="categories-container mx-3 py-3">
       <div className="container">
         <div className="title-container">
-          <h2>Categories</h2>
+          <h2>Companies</h2>
         </div>
         <div className="categories">
           {categories.map(({ image, title, description }, index) => {

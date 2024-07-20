@@ -65,7 +65,7 @@ function Navbar({ changeTheme, currentTheme }) {
               </li>
               <li>
               <Link to="categories-container" smooth={true} duration={1000} className="nav-link" activeClass="active">
-              Categories
+              Products
              </Link>
               </li>
               <li>

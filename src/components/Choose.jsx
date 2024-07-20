@@ -21,13 +21,13 @@ function Chooseus() {
     {
       image: choose3,
       title: "24/7 Support",
-      description: "If any problem use our platform you cantact use free.",
+      description: "If any problem use our platform you contact us free.",
     },
     {
       image: choose4,
-      title: "Free Delivery",
+      title: "Quality Product Delivery",
       description:
-        "Wherever you are, we make sure you get free delivery service.",
+        "Wherever you are, we make sure you get delivery.",
     },
   ];
   return (
