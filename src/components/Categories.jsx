@@ -1,55 +1,67 @@
 import React, { useState } from "react";
-import category1 from "../assets/images/category1.png";
-import category2 from "../assets/images/category2.png";
-import category3 from "../assets/images/category3.png";
-import category4 from "../assets/images/category4.png";
-import category5 from "../assets/images/category5.png";
-import category6 from "../assets/images/category6.png";
-import category7 from "../assets/images/category7.png";
-import category8 from "../assets/images/category8.png";
+import perfumeCategory1 from "../assets/images/perfumeIcon1.png";
+import perfumeCategory2 from "../assets/images/perfumeIcon2.png";
+import perfumeCategory3 from "../assets/images/perfumeIcon3.png";
+import perfumeCategory4 from "../assets/images/perfumeIcon4.png";
+import perfumeCategory5 from "../assets/images/perfumeIcon5.png";
+import cosmeticsCategory6 from "../assets/images/colorsQueenIcon.jpg";
+import cosmeticsCategory7 from "../assets/images/milapCosmticsIcon.jpg";
+import cosmeticsCategory8 from "../assets/images/cosmeticsIcon1.png";
+import cosmeticsCategory9 from "../assets/images/cosmeticsIcon2.png";
+import cosmeticsCategory10 from "../assets/images/cosmeticsIcon3.png";
 import Products from "./Products"; // Assuming Products component is in the same folder
 
 function Categories() {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const categories = [
     {
-      image: category1,
+      image: perfumeCategory1,
       title: "St. Louis",
       description: "290K Items",
     },
     {
-      image: category2,
-      title: "Color Queen",
+      image: perfumeCategory2,
+      title: "JBJ",
       description: "3M Items",
     },
     {
-      image: category3,
-      title: "Laptop",
+      image: perfumeCategory3,
+      title: "Ramsons",
       description: "1.2M Items",
     },
     {
-      image: category4,
-      title: "Music",
+      image: perfumeCategory4,
+      title: "Rian",
       description: "751K Items",
     },
     {
-      image: category5,
-      title: "Photography",
+      image: perfumeCategory5,
+      title: "Riya",
       description: "1.0M Items",
     },
     {
-      image: category6,
-      title: "Furniture",
+      image: cosmeticsCategory6,
+      title: "Color Queen",
       description: "88K Items",
     },
     {
-      image: category7,
-      title: "Health",
+      image: cosmeticsCategory7,
+      title: "Milap",
       description: "761K Items",
     },
     {
-      image: category8,
-      title: "Sports",
+      image: cosmeticsCategory8,
+      title: "Silvi",
+      description: "2.9K Items",
+    },
+    {
+      image: cosmeticsCategory9,
+      title: "Neckline",
+      description: "2.9K Items",
+    },
+    {
+      image: cosmeticsCategory10,
+      title: "Beauty People",
       description: "2.9K Items",
     },
   ];

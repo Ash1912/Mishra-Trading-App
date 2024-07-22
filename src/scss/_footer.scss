@@ -36,7 +36,7 @@ footer {
         display: block; // Ensures the text breaks into separate lines
         font-family: 'Arial', sans-serif; // Different font for description
         &:nth-child(1) { font-style: italic; }
-        &:nth-child(2) { font-style: italic; font-weight: bold; font-size: 0.90em; }
+        &:nth-child(2) { font-style: italic; font-weight: bold; font-size: 1.3em; }
         &:nth-child(3) { font-style: italic; font-size: 1.25em; }
       }
     }
