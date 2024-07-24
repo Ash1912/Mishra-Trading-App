@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mishra-Trading-App/static/css/main.b237018b.css",
-    "main.js": "/Mishra-Trading-App/static/js/main.4d1eb732.js",
+    "main.js": "/Mishra-Trading-App/static/js/main.0540654c.js",
     "static/media/compare1.png": "/Mishra-Trading-App/static/media/compare1.972a3e996eff0f50e640.png",
     "static/media/compare2.png": "/Mishra-Trading-App/static/media/compare2.906c545a8776c7cdf6b0.png",
     "static/media/skcare2.png": "/Mishra-Trading-App/static/media/skcare2.f7a2e98efd0040dc20e1.png",
@@ -51,14 +51,43 @@
     "static/media/home3.jpg": "/Mishra-Trading-App/static/media/home3.a925b96b8d07f3a6b25c.jpg",
     "static/media/recommend3.jpeg": "/Mishra-Trading-App/static/media/recommend3.98616ba71d6aa6d52e43.jpeg",
     "static/media/7.jpg": "/Mishra-Trading-App/static/media/7.28168cd900bfc8dc4446.jpg",
+    "static/media/32.jpg": "/Mishra-Trading-App/static/media/32.da6e8250800502e8a90a.jpg",
+    "static/media/40.jpg": "/Mishra-Trading-App/static/media/40.ea1d61f6bd368fb45754.jpg",
+    "static/media/48.jpg": "/Mishra-Trading-App/static/media/48.9878954d1d5895315d06.jpg",
+    "static/media/49.jpg": "/Mishra-Trading-App/static/media/49.36dbee86b59fbd0bf9a8.jpg",
+    "static/media/47.jpg": "/Mishra-Trading-App/static/media/47.26fc101230c69af908df.jpg",
+    "static/media/39.jpg": "/Mishra-Trading-App/static/media/39.f1ce2a6a72974e0b5d77.jpg",
     "static/media/8.jpg": "/Mishra-Trading-App/static/media/8.ad6c938230d4ea7123c6.jpg",
+    "static/media/33.jpg": "/Mishra-Trading-App/static/media/33.db9dbc213295d87c4e93.jpg",
+    "static/media/36.jpg": "/Mishra-Trading-App/static/media/36.43cf9aa5e88886448799.jpg",
+    "static/media/41.jpg": "/Mishra-Trading-App/static/media/41.33d515ed316b44b541bd.jpg",
+    "static/media/31.jpg": "/Mishra-Trading-App/static/media/31.fcc599f0c10e090c3f59.jpg",
+    "static/media/42.jpg": "/Mishra-Trading-App/static/media/42.7ed236f6b76b867ce243.jpg",
+    "static/media/37.jpg": "/Mishra-Trading-App/static/media/37.4f744817abcd70812efe.jpg",
+    "static/media/35.jpg": "/Mishra-Trading-App/static/media/35.306bc1d70f42ff02cafe.jpg",
+    "static/media/34.jpg": "/Mishra-Trading-App/static/media/34.e48feda17da11bb61c43.jpg",
+    "static/media/38.jpg": "/Mishra-Trading-App/static/media/38.09c6eb82669da8c20d66.jpg",
+    "static/media/44.jpg": "/Mishra-Trading-App/static/media/44.2e5714498bf38689b1cb.jpg",
+    "static/media/50.jpg": "/Mishra-Trading-App/static/media/50.f0c1dae97dd895e65f6f.jpg",
+    "static/media/43.jpg": "/Mishra-Trading-App/static/media/43.4e7c3c0750a59bd4599a.jpg",
+    "static/media/59.jpg": "/Mishra-Trading-App/static/media/59.1bdcdbba1671d933dd94.jpg",
+    "static/media/46.jpg": "/Mishra-Trading-App/static/media/46.79e1d6e4e0217af792cb.jpg",
+    "static/media/45.jpg": "/Mishra-Trading-App/static/media/45.4776dc62e599fedc64f8.jpg",
+    "static/media/54.jpg": "/Mishra-Trading-App/static/media/54.2d6219403f2821d8f939.jpg",
+    "static/media/53.jpg": "/Mishra-Trading-App/static/media/53.9efcd2717da3125fafa1.jpg",
+    "static/media/51.jpg": "/Mishra-Trading-App/static/media/51.53ea37a43724780e9c80.jpg",
+    "static/media/57.jpg": "/Mishra-Trading-App/static/media/57.a5984259638abc67e4e5.jpg",
+    "static/media/56.jpg": "/Mishra-Trading-App/static/media/56.560d20bcc146171ad6fd.jpg",
+    "static/media/58.jpg": "/Mishra-Trading-App/static/media/58.a680c9e6818f20d01772.jpg",
+    "static/media/55.jpg": "/Mishra-Trading-App/static/media/55.4eb49210e8827283c544.jpg",
+    "static/media/52.jpg": "/Mishra-Trading-App/static/media/52.e08aacae4fc5bd23bb7f.jpg",
     "static/media/perfume5.jpg": "/Mishra-Trading-App/static/media/perfume5.a8bd10a97bf99a013b08.jpg",
     "index.html": "/Mishra-Trading-App/index.html",
     "main.b237018b.css.map": "/Mishra-Trading-App/static/css/main.b237018b.css.map",
-    "main.4d1eb732.js.map": "/Mishra-Trading-App/static/js/main.4d1eb732.js.map"
+    "main.0540654c.js.map": "/Mishra-Trading-App/static/js/main.0540654c.js.map"
   },
   "entrypoints": [
     "static/css/main.b237018b.css",
-    "static/js/main.4d1eb732.js"
+    "static/js/main.0540654c.js"
   ]
 }
