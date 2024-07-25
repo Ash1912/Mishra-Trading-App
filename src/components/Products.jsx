@@ -1153,7 +1153,17 @@ function Products({ category }) {
     },
   ];
 
-  // Determine which products to display
+  const [displayedProducts, setDisplayedProducts] = useState([]);
+  const [showAll, setShowAll] = useState(false);
+
+  // Products mapping for easier reference
+  const productsByCategory = {
+    'St. Louis': stLouisProducts,
+    'Color Queen': colorQueenProducts,
+    'default': defaultProducts,
+  };
+
+  // // Determine which products to display
   // let products;
   // if (category === 'St. Louis') {
   //   products = stLouisProducts;
@@ -1163,18 +1173,21 @@ function Products({ category }) {
   //   products = defaultProducts; // Default products if no category is selected
   // }
 
-  // Manage state for showing all products from all categories
-  const [allProducts, setAllProducts] = useState([...defaultProducts]);
-
-  const [showAll, setShowAll] = useState(false);
-
-  const handleShowAllToggle = () => {
-    if (!showAll) {
-      setAllProducts([...stLouisProducts, ...colorQueenProducts, ...defaultProducts]); // Show all products
+  // Determine which products to display based on category
+  useState(() => {
+    if (category && productsByCategory[category]) {
+      setDisplayedProducts(productsByCategory[category]);
+      setShowAll(false); // Only show "Show All" for default category
     } else {
-      setAllProducts([...defaultProducts]); // Show only default products
+      setDisplayedProducts(defaultProducts);
+      setShowAll(true);
     }
-    setShowAll(!showAll); // Toggle the state to keep track of what to show next
+  }, [category]);
+
+  // Handler for "Show All" toggle
+  const handleShowAll = () => {
+    setDisplayedProducts([...stLouisProducts, ...colorQueenProducts, ...defaultProducts]);
+    setShowAll(false); // Hide button after showing all
   };
 
   // const products = category === 'St. Louis' ? stLouisProducts : colorQueenProducts;
@@ -1183,10 +1196,10 @@ function Products({ category }) {
       <div className="container">
         <div className="title-container">
         <h2>{category ? `${category} Products` : "Featured Products"}</h2>
-          <button onClick={handleShowAllToggle}>{showAll ? "Show Featured" : "Show All"}</button>
+        {showAll && <button onClick={handleShowAll}>Show All</button>}
         </div>
         <div className="products">
-          {allProducts.map(({ image, name, model, quantity, mrp }, index) => {
+          {displayedProducts.map(({ image, name, model, quantity, mrp }, index) => {
             return (
               <div className="product" key={index}>
                 <div className="image">
