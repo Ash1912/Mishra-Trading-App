@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mishra-Trading-App/static/css/main.b237018b.css",
-    "main.js": "/Mishra-Trading-App/static/js/main.cccdb888.js",
+    "main.js": "/Mishra-Trading-App/static/js/main.d661103b.js",
     "static/media/compare1.png": "/Mishra-Trading-App/static/media/compare1.972a3e996eff0f50e640.png",
     "static/media/compare2.png": "/Mishra-Trading-App/static/media/compare2.906c545a8776c7cdf6b0.png",
     "static/media/skcare2.png": "/Mishra-Trading-App/static/media/skcare2.f7a2e98efd0040dc20e1.png",
@@ -98,10 +98,10 @@
     "static/media/65.jpg": "/Mishra-Trading-App/static/media/65.a4f32c818601e41e92c4.jpg",
     "index.html": "/Mishra-Trading-App/index.html",
     "main.b237018b.css.map": "/Mishra-Trading-App/static/css/main.b237018b.css.map",
-    "main.cccdb888.js.map": "/Mishra-Trading-App/static/js/main.cccdb888.js.map"
+    "main.d661103b.js.map": "/Mishra-Trading-App/static/js/main.d661103b.js.map"
   },
   "entrypoints": [
     "static/css/main.b237018b.css",
-    "static/js/main.cccdb888.js"
+    "static/js/main.d661103b.js"
   ]
 }
