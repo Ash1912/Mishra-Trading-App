@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-scroll';
 import perfumeCategory1 from "../assets/images/perfumeIcon1.png";
 import perfumeCategory2 from "../assets/images/perfumeIcon2.png";
 import perfumeCategory3 from "../assets/images/perfumeIcon3.png";
@@ -94,7 +95,7 @@ function Categories() {
             );
           })}
         </div>
-        <button>Show All</button>
+        <button><Link to="categories-container" smooth={true} duration={1000} className="learnMore-link" activeClass="active">Show All</Link></button>
       </div>
       {selectedCategory && <Products category={selectedCategory} />}
     </div>

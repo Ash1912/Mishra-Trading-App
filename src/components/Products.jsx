@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import compare1 from "../assets/images/compare1.png";
 import compare2 from "../assets/images/compare2.png";
 import perfume1 from "../assets/images/perfume1.jpg";
@@ -67,6 +67,25 @@ import jasmine from "../assets/images/St. Louis/56.jpg";
 import sandal from "../assets/images/St. Louis/57.jpg";
 import rose from "../assets/images/St. Louis/58.jpg";
 import lavender from "../assets/images/St. Louis/59.jpg";
+import pinkberryRS from "../assets/images/St. Louis/60.jpg";
+import blackcodeRS from "../assets/images/St. Louis/61.jpg";
+import whitelondonRS from "../assets/images/St. Louis/62.jpg";
+import blackberryRS from "../assets/images/St. Louis/63.jpg";
+import bappleRS from "../assets/images/St. Louis/64.jpg";
+import purewhitemuskRS from "../assets/images/St. Louis/65.jpg";
+import lepoloRS from "../assets/images/St. Louis/66.jpg";
+import sexinthecityRS from "../assets/images/St. Louis/67.jpg";
+import partymagicRS from "../assets/images/St. Louis/68.jpg";
+import blueberryRS from "../assets/images/St. Louis/69.jpg";
+import freshroseRS from "../assets/images/St. Louis/70.jpg";
+import freshlemonRS from "../assets/images/St. Louis/71.jpg";
+import mixRS from "../assets/images/St. Louis/72.jpg";
+import blackberry100ml from "../assets/images/St. Louis/73.jpg";
+import bapple100ml from "../assets/images/St. Louis/74.jpg";
+import blackberrygift from "../assets/images/St. Louis/75.jpg";
+import pinkberrygift from "../assets/images/St. Louis/76.jpg";
+import blackberryandpinkberrygift from "../assets/images/St. Louis/77.jpg";
+import loveinthecity from "../assets/images/St. Louis/78.jpg";
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -93,7 +112,7 @@ function Products({ category }) {
       mrp: "₹ 288",
     },
     {
-      image: blackberry,
+      image: blackberry100ml,
       name: "Blackberry",
       model: "EAU DE PARFUM",
       quantity: "Available in: 100ml",
@@ -170,7 +189,7 @@ function Products({ category }) {
       mrp: "₹ 288",
     },
     {
-      image: bapple,
+      image: bapple100ml,
       name: "Bapple",
       model: "EAU DE PARFUM",
       quantity: "Available in: 100ml",
@@ -828,6 +847,13 @@ function Products({ category }) {
       mrp: "₹ 279",
     },
     {
+      image: loveinthecity,
+      name: "Love in the City",
+      model: "Deodorant Body Spray",
+      quantity: "Available in: 200ml",
+      mrp: "₹ 279",
+    },
+    {
       image: purerose,
       name: "Pure Rose",
       model: "Deodorant Body Spray",
@@ -891,20 +917,6 @@ function Products({ category }) {
       mrp: "₹ 417",
     },
     {
-      image: bluelondon,
-      name: "Blue London Perfume",
-      model: "",
-      quantity: "Available in: 30ml",
-      mrp: "₹ 189",
-    },
-    {
-      image: bluelondon,
-      name: "Blue London Perfume",
-      model: "",
-      quantity: "Available in: 50ml",
-      mrp: "₹ 288",
-    },
-    {
       image: pureroseRS,
       name: "Pure Rose",
       model: "Room Freshner",
@@ -939,7 +951,153 @@ function Products({ category }) {
       quantity: "Available in: 250ml",
       mrp: "₹ 198",
     },
-
+    {
+      image: attarful,
+      name: "Attarful",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: jasmine,
+      name: "Jasmine",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: sandal,
+      name: "Sandal",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: rose,
+      name: "Rose",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: lavender,
+      name: "Lavender",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: pinkberryRS,
+      name: "Pinkberry",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: blackcodeRS,
+      name: "Black Code",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: blackberryRS,
+      name: "Blackberry",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: whitelondonRS,
+      name: "White London",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: bappleRS,
+      name: "Bapple",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: purewhitemuskRS,
+      name: "Pure White Musk",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: lepoloRS,
+      name: "Lepolo",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: sexinthecityRS,
+      name: "Sex in the City",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: partymagicRS,
+      name: "Party Magic",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: blueberryRS,
+      name: "Blueberry",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: freshroseRS,
+      name: "Fresh Rose",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: freshlemonRS,
+      name: "Fresh Lemon",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: mixRS,
+      name: "Mix",
+      model: "Room Freshner",
+      quantity: "Available in: 250ml",
+      mrp: "₹ 198",
+    },
+    {
+      image: blackberrygift,
+      name: "Blackberry",
+      model: "Premium Gift Set",
+      quantity: "Available",
+      mrp: "₹ 504",
+    },
+    {
+      image: pinkberrygift,
+      name: "Pinkberry",
+      model: "Premium Gift Set",
+      quantity: "Available",
+      mrp: "₹ 504",
+    },
+    {
+      image: blackberryandpinkberrygift,
+      name: "Blackberry & Pinkberry",
+      model: "Premium Gift Set",
+      quantity: "Available",
+      mrp: "₹ 749",
+    },
   ];
   const colorQueenProducts = [
     {
@@ -993,52 +1151,31 @@ function Products({ category }) {
       quantity: "Intel&reg; Core&trade; i5 8000C Processor",
       mrp: "Windows 10 Pro for business",
     },
-    {
-      image: attarful,
-      name: "Attarful",
-      model: "Room Freshner",
-      quantity: "Available in: 250ml",
-      mrp: "₹ 198",
-    },
-    {
-      image: jasmine,
-      name: "Jasmine",
-      model: "Room Freshner",
-      quantity: "Available in: 250ml",
-      mrp: "₹ 198",
-    },
-    {
-      image: sandal,
-      name: "Sandal",
-      model: "Room Freshner",
-      quantity: "Available in: 250ml",
-      mrp: "₹ 198",
-    },
-    {
-      image: rose,
-      name: "Rose",
-      model: "Room Freshner",
-      quantity: "Available in: 250ml",
-      mrp: "₹ 198",
-    },
-    {
-      image: lavender,
-      name: "Lavender",
-      model: "Room Freshner",
-      quantity: "Available in: 250ml",
-      mrp: "₹ 198",
-    },
   ];
 
   // Determine which products to display
-  let products;
-  if (category === 'St. Louis') {
-    products = stLouisProducts;
-  } else if (category === 'Color Queen') {
-    products = colorQueenProducts;
-  } else {
-    products = defaultProducts; // Default products if no category is selected
-  }
+  // let products;
+  // if (category === 'St. Louis') {
+  //   products = stLouisProducts;
+  // } else if (category === 'Color Queen') {
+  //   products = colorQueenProducts;
+  // } else {
+  //   products = defaultProducts; // Default products if no category is selected
+  // }
+
+  // Manage state for showing all products from all categories
+  const [allProducts, setAllProducts] = useState([...defaultProducts]);
+
+  const [showAll, setShowAll] = useState(false);
+
+  const handleShowAllToggle = () => {
+    if (!showAll) {
+      setAllProducts([...stLouisProducts, ...colorQueenProducts, ...defaultProducts]); // Show all products
+    } else {
+      setAllProducts([...defaultProducts]); // Show only default products
+    }
+    setShowAll(!showAll); // Toggle the state to keep track of what to show next
+  };
 
   // const products = category === 'St. Louis' ? stLouisProducts : colorQueenProducts;
   return (
@@ -1046,10 +1183,10 @@ function Products({ category }) {
       <div className="container">
         <div className="title-container">
         <h2>{category ? `${category} Products` : "Featured Products"}</h2>
-          <button>Show All</button>
+          <button onClick={handleShowAllToggle}>{showAll ? "Show Featured" : "Show All"}</button>
         </div>
         <div className="products">
-          {products.map(({ image, name, model, quantity, mrp }, index) => {
+          {allProducts.map(({ image, name, model, quantity, mrp }, index) => {
             return (
               <div className="product" key={index}>
                 <div className="image">
