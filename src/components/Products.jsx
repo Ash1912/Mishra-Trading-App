@@ -3,7 +3,6 @@ import compare1 from "../assets/images/compare1.png";
 import compare2 from "../assets/images/compare2.png";
 import perfume1 from "../assets/images/perfume1.jpg";
 import cosmetics2 from "../assets/images/cosmetics2.jpg";
-import cosmetics3 from "../assets/images/cosmetics3.jpg";
 import mrpimage from "../assets/images/mrp.jpg";
 import availablevaraintimage from "../assets/images/availablevariant.jpg";
 
@@ -90,6 +89,15 @@ import pinkberryfemme from "../assets/images/St. Louis/80.jpg";
 import unisexluxurycollection from "../assets/images/St. Louis/81.jpg";
 
 import mellowmatte from "../assets/images/Colors Queen/1.jpg";
+import shringareyeshadowpalette from "../assets/images/Colors Queen/2.jpg";
+import lusciouslips from "../assets/images/Colors Queen/3.jpg";
+import mattifyinglipstick from "../assets/images/Colors Queen/4.jpg";
+import velourtouchhairserum from "../assets/images/Colors Queen/5.jpg";
+import faceandglam from "../assets/images/Colors Queen/6.jpg";
+import firstglow  from "../assets/images/Colors Queen/7.jpg";
+import everflavor from "../assets/images/Colors Queen/8.jpg";
+import perfectface from "../assets/images/Colors Queen/9.jpg";
+
 
 
 import { BsChevronDown } from "react-icons/bs";
@@ -1135,18 +1143,67 @@ function Products({ category }) {
       mrp: "₹ 299",
     },
     {
-      image: cosmetics2,
-      name: "Gaming Rig",
-      model: "RG-2022",
-      availablevaraints: "AMD Ryzen 5 3600",
-      mrp: "Windows 11 Pro",
+      image: shringareyeshadowpalette,
+      name: "Shringar Eyeshadow Palette",
+      model: "EM-36",
+      availablevaraints: "Available",
+      mrp: "₹ 625",
     },
     {
-      image: cosmetics3,
-      name: "Gaming Rig",
-      model: "RG-2022",
-      availablevaraints: "AMD Ryzen 5 3600",
-      mrp: "Windows 11 Pro",
+      image: lusciouslips,
+      name: "Luscious Lips",
+      model: "DL-1242",
+      availablevaraints: "Available in 24 shades",
+      mrp: "₹ 325",
+    },
+    {
+      image: lusciouslips,
+      name: "Luscious Lips",
+      model: "DL-1242",
+      availablevaraints: "Available in 24 shades",
+      mrp: "₹ 325",
+    },
+    {
+      image: mattifyinglipstick,
+      name: "Mattifying Liquid Lipstick",
+      model: "NTG-20",
+      availablevaraints: "Available in 20 shades",
+      mrp: "₹ 249",
+    },
+    {
+      image: velourtouchhairserum,
+      name: "Velour Touch Hair Serum",
+      model: "HS-01",
+      availablevaraints: "Available",
+      mrp: "₹ 399",
+    },
+    {
+      image: faceandglam,
+      name: "Face & Glam Makeup Kit",
+      model: "NE-01",
+      availablevaraints: "Available",
+      mrp: "₹ 599",
+    },
+    {
+      image: firstglow,
+      name: "First Glow Makeup Kit",
+      model: "NE-02",
+      availablevaraints: "Available",
+      mrp: "₹ 599",
+    },
+    {
+      image: everflavor,
+      name: "Ever Flavor Professional Makeup Kit",
+      model: "NE-16",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 389",
+    },
+    {
+      image: perfectface,
+      name: "Perfect Face Makeup Kit",
+      model: "NE-17",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 379",
     },
   ];
   const defaultProducts  = [
