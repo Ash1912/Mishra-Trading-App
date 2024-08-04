@@ -97,8 +97,28 @@ import faceandglam from "../assets/images/Colors Queen/6.jpg";
 import firstglow  from "../assets/images/Colors Queen/7.jpg";
 import everflavor from "../assets/images/Colors Queen/8.jpg";
 import perfectface from "../assets/images/Colors Queen/9.jpg";
-
-
+import fashionclub from "../assets/images/Colors Queen/10.jpg";
+import catwalk from "../assets/images/Colors Queen/11.jpg";
+import contourhighlighter from "../assets/images/Colors Queen/12.jpg";
+import coverconceal from "../assets/images/Colors Queen/13.jpg";
+import instaglow from "../assets/images/Colors Queen/14.jpg";
+import kisslips from "../assets/images/Colors Queen/15.jpg";
+import beautylips from "../assets/images/Colors Queen/16.jpg";
+import queenlips from "../assets/images/Colors Queen/17.jpg";
+import ninetoeight from "../assets/images/Colors Queen/18.jpg";
+import colorstay from "../assets/images/Colors Queen/19.jpg";
+import liptint from "../assets/images/Colors Queen/20.jpg";
+import intensematte from "../assets/images/Colors Queen/21.jpg";
+import plummatte from "../assets/images/Colors Queen/22.jpg";
+import followme from "../assets/images/Colors Queen/23.jpg";
+import powdermatte from "../assets/images/Colors Queen/24.jpg";
+import supermatte from "../assets/images/Colors Queen/25.jpg";
+import purematte from "../assets/images/Colors Queen/26.jpg";
+import hotlips from "../assets/images/Colors Queen/27.jpg";
+import softmatte from "../assets/images/Colors Queen/28.jpg";
+import frenchmatte from "../assets/images/Colors Queen/29.jpg";
+import hyperstay from "../assets/images/Colors Queen/30.jpg";
+import queenblast from "../assets/images/Colors Queen/31.jpg";
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -1157,13 +1177,6 @@ function Products({ category }) {
       mrp: "₹ 325",
     },
     {
-      image: lusciouslips,
-      name: "Luscious Lips",
-      model: "DL-1242",
-      availablevaraints: "Available in 24 shades",
-      mrp: "₹ 325",
-    },
-    {
       image: mattifyinglipstick,
       name: "Mattifying Liquid Lipstick",
       model: "NTG-20",
@@ -1204,6 +1217,160 @@ function Products({ category }) {
       model: "NE-17",
       availablevaraints: "Available in 2 shades",
       mrp: "₹ 379",
+    },
+    {
+      image: fashionclub,
+      name: "Fashion Club Matte Eyeshadow & Blusher Palette",
+      model: "NE-19",
+      availablevaraints: "Available",
+      mrp: "₹ 349",
+    },
+    {
+      image: catwalk,
+      name: "CAT WALK Makeup Kit",
+      model: "MK-41",
+      availablevaraints: "Available",
+      mrp: "₹ 1149",
+    },
+    {
+      image: contourhighlighter,
+      name: "CONTOUR & HIGHLIGHTER Palette",
+      model: "NE-08",
+      availablevaraints: "Available",
+      mrp: "₹ 699",
+    },
+    {
+      image: coverconceal,
+      name: "COVER & CONCEAL",
+      model: "CU-04",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 199",
+    },
+    {
+      image: instaglow,
+      name: "INSTA GLOW HIGHLIGHTING STICK",
+      model: "NE-09",
+      availablevaraints: "Available in 5 shades",
+      mrp: "₹ 299",
+    },
+    {
+      image: kisslips,
+      name: "KISS LIPS Non-Transfer Lipstick",
+      model: "3330",
+      availablevaraints: "Available in 24 shades",
+      mrp: "₹ 399",
+    },
+    {
+      image: beautylips,
+      name: "BEAUTY LIPS Non-Transfer Lipstick",
+      model: "NTS-1462",
+      availablevaraints: "Available in 47 shades",
+      mrp: "₹ 249",
+    },
+    {
+      image: queenlips,
+      name: "QUEEN LIPS Non-Transfer Lipstick",
+      model: "NTS-9590",
+      availablevaraints: "Available in 51 shades",
+      mrp: "₹ 299",
+    },
+    {
+      image: ninetoeight,
+      name: "9 To 8 Non-Transfer Lipstick",
+      model: "NTS-4361",
+      availablevaraints: "Available in 36 shades",
+      mrp: "₹ 299",
+    },
+    {
+      image: colorstay,
+      name: "COLOR STAY",
+      model: "NTS-0918",
+      availablevaraints: "Available in 23 shades",
+      mrp: "₹ 299",
+    },
+    {
+      image: liptint,
+      name: "LIPS TINT Cheek Eyelid",
+      model: "LP-09",
+      availablevaraints: "Available in 7 shades",
+      mrp: "₹ 199",
+    },
+    {
+      image: intensematte,
+      name: "Intense Matte Lipstick",
+      model: "ML-76",
+      availablevaraints: "Available in Red, Mix and Mehroon Shades",
+      mrp: "₹ 150",
+    },
+    {
+      image: plummatte,
+      name: "PLUM MATTE Lipstick",
+      model: "ML-58",
+      availablevaraints: "Available in A, B, Red and Maroon Shades",
+      mrp: "₹ 149",
+    },
+    {
+      image: followme,
+      name: "FOLLOW ME Lipstick",
+      model: "ML-66",
+      availablevaraints: "Available in Red & Mix Shades",
+      mrp: "₹ 125",
+    },
+    {
+      image: powdermatte,
+      name: "POWDER MATTE Lipstick",
+      model: "ML-56",
+      availablevaraints: "Available in A, B, Red & Mehroon",
+      mrp: "₹ 149",
+    },
+    {
+      image: supermatte,
+      name: "SUPER MATTE Flat Velvet Lipstick",
+      model: "MLT-32",
+      availablevaraints: "Available in Mix Shades",
+      mrp: "₹ 189",
+    },
+    {
+      image: purematte,
+      name: "PURE MATTE Lipstick",
+      model: "ML-36",
+      availablevaraints: "Available in only Red Shades",
+      mrp: "₹ 120",
+    },
+    {
+      image: hotlips,
+      name: "HOT LIPS Matte Lipstick",
+      model: "ML-46",
+      availablevaraints: "Available in Red & Mix Shades",
+      mrp: "₹ 125",
+    },
+    {
+      image: softmatte,
+      name: "SOFT MATTE Lipstick",
+      model: "SM-16",
+      availablevaraints: "Available in Red & Mix Shades",
+      mrp: "₹ 125",
+    },
+    {
+      image: frenchmatte,
+      name: "FRENCH MATTE Lipstick",
+      model: "FM-12",
+      availablevaraints: "Available in Mix Shades",
+      mrp: "₹ 199",
+    },
+    {
+      image: hyperstay,
+      name: "HYPER STAY Matte Lipstick",
+      model: "ML-59",
+      availablevaraints: "Available in A, B and Red Shades",
+      mrp: "₹ 179",
+    },
+    {
+      image: queenblast,
+      name: "QUEEN BLAST Glittering Matte",
+      model: "GL-12",
+      availablevaraints: "Available in 13 Shades",
+      mrp: "₹ 299",
     },
   ];
   const defaultProducts  = [
