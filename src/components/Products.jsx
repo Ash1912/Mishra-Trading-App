@@ -119,6 +119,17 @@ import softmatte from "../assets/images/Colors Queen/28.jpg";
 import frenchmatte from "../assets/images/Colors Queen/29.jpg";
 import hyperstay from "../assets/images/Colors Queen/30.jpg";
 import queenblast from "../assets/images/Colors Queen/31.jpg";
+import coloraddict from "../assets/images/Colors Queen/32.jpg";
+import herbalmatte from "../assets/images/Colors Queen/33.jpg";
+import shadesoflove from "../assets/images/Colors Queen/34.jpg";
+import lipmatte from "../assets/images/Colors Queen/35.jpg";
+import rockstar from "../assets/images/Colors Queen/36.jpg";
+import mattefinishcolor from "../assets/images/Colors Queen/37.jpg";
+import lipsense from "../assets/images/Colors Queen/38.jpg";
+import cremetouch from "../assets/images/Colors Queen/39.jpg";
+import plummattelips from "../assets/images/Colors Queen/40.jpg";
+import ninetoninenontranfser from "../assets/images/Colors Queen/41.jpg";
+import metallic from "../assets/images/Colors Queen/42.jpg";
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -1372,6 +1383,84 @@ function Products({ category }) {
       availablevaraints: "Available in 13 Shades",
       mrp: "₹ 299",
     },
+    {
+      image: coloraddict,
+      name: "COLOR ADDICT Matte Lipstick",
+      model: "MLT-12",
+      availablevaraints: "Available in 13 Shades",
+      mrp: "₹ 249",
+    },
+    {
+      image: herbalmatte,
+      name: "HERBAL MATTE Lip Pencil",
+      model: "CQSL-44",
+      availablevaraints: "Available in A & B Shades",
+      mrp: "₹ 125",
+    },
+    {
+      image: shadesoflove,
+      name: "SHADES OF LOVE Matte Lipstick",
+      model: "5 IN 1",
+      availablevaraints: "Available in 3 Shades",
+      mrp: "₹ 265",
+    },
+    {
+      image: lipmatte,
+      name: "LIP MATTE Long Lasting Gloss + Matte Lipstick (2in1)",
+      model: "LSL-21",
+      availablevaraints: "Available in 52 Shades",
+      mrp: "₹ 249",
+    },
+    {
+      image: rockstar,
+      name: "ROCK STAR Lipstick",
+      model: "RS-06",
+      availablevaraints: "Available in 6 Shades",
+      mrp: "₹ 399",
+    },
+    {
+      image: mattefinishcolor,
+      name: "MATTE FINISH COLOR Glamorous Silky Lipstick",
+      model: "RM-01",
+      availablevaraints: "Available in 22 Shades",
+      mrp: "₹ 189",
+    },
+    {
+      image: lipsense,
+      name: "Lipsense Matte Lipstick",
+      model: "ML-57",
+      availablevaraints: "Available",
+      mrp: "₹ 150",
+    },
+    {
+      image: cremetouch,
+      name: "Creme Touch Non-Transfer Lip Color ",
+      model: "NTG-13",
+      availablevaraints: "Available in 28 Shades",
+      mrp: "₹ 250",
+    },
+    {
+      image: plummattelips,
+      name: "PLUM MATTE LIPS COLOR",
+      model: "GN-30",
+      availablevaraints: "Available in 32 Shades",
+      mrp: "₹ 150",
+    },
+    {
+      image: ninetoninenontranfser,
+      name: "9TO9 Non Transfer Lipgloss",
+      model: "NTG-14",
+      availablevaraints: "Available in A, B, Red & Mahroon Shades",
+      mrp: "₹ 250",
+    },
+    {
+      image: metallic,
+      name: "METALLIC Waterproof Lipgloss",
+      model: "MG-15",
+      availablevaraints: "Available in 18 Shades",
+      mrp: "₹ 299",
+    },
+    
   ];
   const defaultProducts  = [
     {

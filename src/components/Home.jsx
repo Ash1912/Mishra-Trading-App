@@ -4,9 +4,10 @@ import { Link } from 'react-scroll';
 import home1 from "../assets/images/home1.jpg";
 import home2 from "../assets/images/home2.jpg";
 import home3 from "../assets/images/home3.jpg";
+import home4 from "../assets/images/home4.jpg";
 // import Categories from "./Categories"; // Make sure to import Categories component
 
-const images = [home1, home2, home3];
+const images = [home1, home2, home3, home4];
 
 function Home() {
   const [currentImage, setCurrentImage] = useState(home1);
