@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-import compare1 from "../assets/images/compare1.png";
-import compare2 from "../assets/images/compare2.png";
-import perfume1 from "../assets/images/perfume1.jpg";
-import cosmetics2 from "../assets/images/cosmetics2.jpg";
 import mrpimage from "../assets/images/mrp.jpg";
 import availablevaraintimage from "../assets/images/availablevariant.jpg";
 
@@ -1607,32 +1603,32 @@ function Products({ category }) {
   ];
   const defaultProducts  = [
     {
-      image: perfume1,
-      name: "Asus Zenbook Pro",
-      model: "UX-430 US",
-      availablevaraints: "Intel&reg; Core&trade; i3 7100U Processor",
-      mrp: "Windows 10 Pro for business",
+      image: blackberryandpinkberrygift,
+      name: "Blackberry & Pinkberry",
+      model: "Premium Gift Set",
+      availablevaraints: "Available",
+      mrp: "₹ 749/-",
     },
     {
-      image: cosmetics2,
-      name: "Lenevo Legion",
-      model: "Y545 2022",
-      availablevaraints: "Intel&reg; Core&trade; i7 9100U Processor",
-      mrp: "Windows 10 Pro for Enterprise",
+      image: charmingdoublelayerpowder,
+      name: "CHARMING Double Layer Powder",
+      model: "PD-04",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 299/-",
     },
     {
-      image: compare1,
-      name: "Acer Swift Air",
-      model: "SF-313 51",
-      availablevaraints: "Intel&reg; Core&trade; i3 7100X Processor",
-      mrp: "Windows 10 Pro for business",
+      image: ninetoninenontranfser,
+      name: "9TO9 Non Transfer Lipgloss",
+      model: "NTG-14",
+      availablevaraints: "Available in A, B, Red & Mahroon Shades",
+      mrp: "₹ 250/-",
     },
     {
-      image: compare2,
-      name: "Lenevo Thinkpad Y51",
-      model: "X1 2022",
-      availablevaraints: "Intel&reg; Core&trade; i5 8000C Processor",
-      mrp: "Windows 10 Pro for business",
+      image: blackcodeDeodorant,
+      name: "Black Code",
+      model: "Deodorant Body Spray",
+      availablevaraints: "Available in: 200ml",
+      mrp: "₹ 279/-",
     },
   ];
 
