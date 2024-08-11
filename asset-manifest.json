@@ -1,9 +1,7 @@
 {
   "files": {
     "main.css": "/Mishra-Trading-App/static/css/main.b7748308.css",
-    "main.js": "/Mishra-Trading-App/static/js/main.0ee65714.js",
-    "static/media/compare1.png": "/Mishra-Trading-App/static/media/compare1.972a3e996eff0f50e640.png",
-    "static/media/compare2.png": "/Mishra-Trading-App/static/media/compare2.906c545a8776c7cdf6b0.png",
+    "main.js": "/Mishra-Trading-App/static/js/main.4ae104e8.js",
     "static/media/skcare2.png": "/Mishra-Trading-App/static/media/skcare2.f7a2e98efd0040dc20e1.png",
     "static/media/31.jpg": "/Mishra-Trading-App/static/media/31.9a1501852f2c638efab1.jpg",
     "static/media/77.jpg": "/Mishra-Trading-App/static/media/77.552616d01bbfba0d5a40.jpg",
@@ -81,7 +79,11 @@
     "static/media/32.jpg": "/Mishra-Trading-App/static/media/32.a961b524d3d45b77d85b.jpg",
     "static/media/48.jpg": "/Mishra-Trading-App/static/media/48.26f0aec1b8e148b85a7c.jpg",
     "static/media/49.jpg": "/Mishra-Trading-App/static/media/49.36dbee86b59fbd0bf9a8.jpg",
+    "static/media/60.jpg": "/Mishra-Trading-App/static/media/60.3b87f27f0137761aea86.jpg",
     "static/media/8.jpg": "/Mishra-Trading-App/static/media/8.36bede45cf4277304d1f.jpg",
+    "static/media/58.jpg": "/Mishra-Trading-App/static/media/58.a680c9e6818f20d01772.jpg",
+    "static/media/57.jpg": "/Mishra-Trading-App/static/media/57.a5984259638abc67e4e5.jpg",
+    "static/media/59.jpg": "/Mishra-Trading-App/static/media/59.1bdcdbba1671d933dd94.jpg",
     "static/media/34.jpg": "/Mishra-Trading-App/static/media/34.e750bdb84fd5b01b6926.jpg",
     "static/media/74.jpg": "/Mishra-Trading-App/static/media/74.54876f58a7b0cd2f20c5.jpg",
     "static/media/75.jpg": "/Mishra-Trading-App/static/media/75.eb37d13cfea6172e7562.jpg",
@@ -89,23 +91,19 @@
     "static/media/76.jpg": "/Mishra-Trading-App/static/media/76.e150429477277a60cd88.jpg",
     "static/media/73.jpg": "/Mishra-Trading-App/static/media/73.4d83ef53203298e16547.jpg",
     "static/media/51.jpg": "/Mishra-Trading-App/static/media/51.53ea37a43724780e9c80.jpg",
-    "static/media/59.jpg": "/Mishra-Trading-App/static/media/59.1bdcdbba1671d933dd94.jpg",
     "static/media/64.jpg": "/Mishra-Trading-App/static/media/64.2802dd0043eceb6ed53a.jpg",
-    "static/media/60.jpg": "/Mishra-Trading-App/static/media/60.3b87f27f0137761aea86.jpg",
     "static/media/63.jpg": "/Mishra-Trading-App/static/media/63.477a925604457ea22346.jpg",
-    "static/media/57.jpg": "/Mishra-Trading-App/static/media/57.a5984259638abc67e4e5.jpg",
     "static/media/70.jpg": "/Mishra-Trading-App/static/media/70.84cf11e5cfe79fd43bdb.jpg",
-    "static/media/58.jpg": "/Mishra-Trading-App/static/media/58.a680c9e6818f20d01772.jpg",
     "static/media/67.jpg": "/Mishra-Trading-App/static/media/67.3df4d4b179b2b19e64fb.jpg",
     "static/media/68.jpg": "/Mishra-Trading-App/static/media/68.babe1077c5b7dbe3e5f0.jpg",
     "static/media/perfume5.jpg": "/Mishra-Trading-App/static/media/perfume5.a8bd10a97bf99a013b08.jpg",
     "static/media/65.jpg": "/Mishra-Trading-App/static/media/65.a4f32c818601e41e92c4.jpg",
     "index.html": "/Mishra-Trading-App/index.html",
     "main.b7748308.css.map": "/Mishra-Trading-App/static/css/main.b7748308.css.map",
-    "main.0ee65714.js.map": "/Mishra-Trading-App/static/js/main.0ee65714.js.map"
+    "main.4ae104e8.js.map": "/Mishra-Trading-App/static/js/main.4ae104e8.js.map"
   },
   "entrypoints": [
     "static/css/main.b7748308.css",
-    "static/js/main.0ee65714.js"
+    "static/js/main.4ae104e8.js"
   ]
 }
