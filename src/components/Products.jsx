@@ -144,6 +144,10 @@ import glimmersticks from "../assets/images/Colors Queen/53.jpg";
 import lipline from "../assets/images/Colors Queen/54.jpg";
 import lipcrayon from "../assets/images/Colors Queen/55.jpg";
 import brighteningvitceserum from "../assets/images/Colors Queen/56.jpg";
+import oilcontrolpowder from "../assets/images/Colors Queen/57.jpg";
+import faceglowpowder from "../assets/images/Colors Queen/58.jpg";
+import brightnesspowder from "../assets/images/Colors Queen/59.jpg";
+import charmingdoublelayerpowder from "../assets/images/Colors Queen/60.jpg";
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -1571,6 +1575,34 @@ function Products({ category }) {
       model: "V-01",
       availablevaraints: "Available",
       mrp: "₹ 235/-",
+    },
+    {
+      image: oilcontrolpowder,
+      name: "OIL CONTROL POWDER SPF-15",
+      model: "PD-01",
+      availablevaraints: "Available IN 5 shades",
+      mrp: "₹ 399/-",
+    },
+    {
+      image: faceglowpowder,
+      name: "FACE GLOW Powder",
+      model: "PD-02",
+      availablevaraints: "Available in 5 shades",
+      mrp: "₹ 399/-",
+    },
+    {
+      image: brightnesspowder,
+      name: "BRIGHTNESS Powder",
+      model: "PD-03",
+      availablevaraints: "Available in 5 shades",
+      mrp: "₹ 350/-",
+    },
+    {
+      image: charmingdoublelayerpowder,
+      name: "CHARMING Double Layer Powder",
+      model: "PD-04",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 299/-",
     },
   ];
   const defaultProducts  = [
