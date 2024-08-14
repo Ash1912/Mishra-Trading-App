@@ -144,6 +144,16 @@ import oilcontrolpowder from "../assets/images/Colors Queen/57.jpg";
 import faceglowpowder from "../assets/images/Colors Queen/58.jpg";
 import brightnesspowder from "../assets/images/Colors Queen/59.jpg";
 import charmingdoublelayerpowder from "../assets/images/Colors Queen/60.jpg";
+import fitforu from "../assets/images/Colors Queen/61.jpg";
+import photogeniccompact from "../assets/images/Colors Queen/62.jpg";
+import sunexpertcompact from "../assets/images/Colors Queen/63.jpg";
+import highcover from "../assets/images/Colors Queen/64.jpg";
+import oilcontrolpowderplus from "../assets/images/Colors Queen/65.jpg";
+import perfectlookpowder from "../assets/images/Colors Queen/66.jpg";
+import gorgeouspancake from "../assets/images/Colors Queen/67.jpg";
+import truemuchoilcontrolpancake from "../assets/images/Colors Queen/68.jpg";
+import highlightingcomplexion from "../assets/images/Colors Queen/69.jpg";
+import highdefinition from "../assets/images/Colors Queen/70.jpg";
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -1599,6 +1609,76 @@ function Products({ category }) {
       model: "PD-04",
       availablevaraints: "Available in 4 shades",
       mrp: "₹ 299/-",
+    },
+    {
+      image: fitforu,
+      name: "FIT FOR U 2 in 1 Powder",
+      model: "PD-05",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 265/-",
+    },
+    {
+      image: photogeniccompact,
+      name: "PHOTOGENIC COMPACT",
+      model: "PD-06",
+      availablevaraints: "Available in 5 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: sunexpertcompact,
+      name: "SUN EXPERT COMPACT",
+      model: "CS-04",
+      availablevaraints: "Available in 5 shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: highcover,
+      name: "HIGH COVER",
+      model: "SC-01",
+      availablevaraints: "Available in 7 shades",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: oilcontrolpowderplus,
+      name: "OIL CONTROL POWDER PLUS",
+      model: "PC-02",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: perfectlookpowder,
+      name: "PERFECT LOOK Powder + Concealer",
+      model: "PC-03",
+      availablevaraints: "Available in 5 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: gorgeouspancake,
+      name: "GORGEOUS Pan Cake",
+      model: "PC-011",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 399/-",
+    },
+    {
+      image: truemuchoilcontrolpancake,
+      name: "TRUE MUCH Oil Control Pan Cake",
+      model: "PC-12",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: highlightingcomplexion,
+      name: "HIGHLIGHTING COMPLEXION LOOSE POWDER + COMPACT",
+      model: "LP-01",
+      availablevaraints: "Available in 1, 2 & Mix shades",
+      mrp: "₹ 349/-",
+    },
+    {
+      image: highdefinition,
+      name: "HIGH DEFINITION Mirror Smooth 4 Color Makeup Powder",
+      model: "LP-04",
+      availablevaraints: "Available",
+      mrp: "₹ 349/-",
     },
   ];
   const defaultProducts  = [
