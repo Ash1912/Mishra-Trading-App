@@ -154,6 +154,29 @@ import gorgeouspancake from "../assets/images/Colors Queen/67.jpg";
 import truemuchoilcontrolpancake from "../assets/images/Colors Queen/68.jpg";
 import highlightingcomplexion from "../assets/images/Colors Queen/69.jpg";
 import highdefinition from "../assets/images/Colors Queen/70.jpg";
+import revitalift from "../assets/images/Colors Queen/71.jpg";
+import wonder from "../assets/images/Colors Queen/72.jpg";
+import seveninonetotalrepair from "../assets/images/Colors Queen/73.jpg";
+import hdsuperblendablefoundation from "../assets/images/Colors Queen/74.jpg";
+import fairskinantidust from "../assets/images/Colors Queen/75.jpg";
+import oilcontrolbasefoundation from "../assets/images/Colors Queen/76.jpg";
+import dreamsatinfoundation from "../assets/images/Colors Queen/77.jpg";
+import highcoverfoundation from "../assets/images/Colors Queen/78.jpg";
+import realbasefoundation from "../assets/images/Colors Queen/79.jpg";
+import excellenceflawlessfoundation from "../assets/images/Colors Queen/80.jpg";
+import moussemattedreammoussefoundation from "../assets/images/Colors Queen/81.jpg";
+import primerplusfoundation from "../assets/images/Colors Queen/82.jpg";
+import onetwothreeperfectfoundation from "../assets/images/Colors Queen/83.jpg";
+import shimmerlightbasefoundation from "../assets/images/Colors Queen/84.jpg";
+import verymeperfectskinglow from "../assets/images/Colors Queen/85.jpg";
+import realbaseoilfreefoundation from "../assets/images/Colors Queen/86.jpg";
+import threeinoneoilfreefoundation from "../assets/images/Colors Queen/87.jpg";
+import fitforufoundation from "../assets/images/Colors Queen/88.jpg";
+import bbfoundation from "../assets/images/Colors Queen/89.jpg";
+import lightmefoundation from "../assets/images/Colors Queen/90.jpg";
+import luxlightrevitializing from "../assets/images/Colors Queen/91.jpg";
+import bbfoundationcream from "../assets/images/Colors Queen/92.jpg";
+
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -1679,6 +1702,160 @@ function Products({ category }) {
       model: "LP-04",
       availablevaraints: "Available",
       mrp: "₹ 349/-",
+    },
+    {
+      image: revitalift,
+      name: "REVITALIFT Base + Foundation",
+      model: "RF-09",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 549/-",
+    },
+    {
+      image: wonder,
+      name: "WONDER 2 Powder + Base Foundation",
+      model: "CT-01",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: seveninonetotalrepair,
+      name: "7 in 1 TOTAL REPAIR Spiral Two Tone Beauty Luxury",
+      model: "TR-07",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 649/-",
+    },
+    {
+      image: hdsuperblendablefoundation,
+      name: "HD Super Blendable Foundation",
+      model: "HDF-03",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 399/-",
+    },
+    {
+      image: fairskinantidust,
+      name: "FAIR SKIN Anti-dust Facial Cleansing Ice Crystal",
+      model: "FS-111",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: oilcontrolbasefoundation,
+      name: "OIL CONTROL BASE FOUNDATION",
+      model: "WSF-01",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 449/-",
+    },
+    {
+      image: dreamsatinfoundation,
+      name: "DREAM SATIN Foundation",
+      model: "WSF-03",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 399/-",
+    },
+    {
+      image: highcoverfoundation,
+      name: "HIGH COVER Foundation",
+      model: "WSF-04",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: realbasefoundation,
+      name: "REAL BASE FOUNDATION",
+      model: "FB-07",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 449/-",
+    },
+    {
+      image: excellenceflawlessfoundation,
+      name: "EXCELLENCE FLAWLESS Foundation",
+      model: "BFC-05",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: moussemattedreammoussefoundation,
+      name: "MOUSSE MATTE Dream Mousse Foundation",
+      model: "MF-01",
+      availablevaraints: "Available in 5 shades",
+      mrp: "₹ 499/-",
+    },
+    {
+      image: primerplusfoundation,
+      name: "PRIMER + FOUNDATION Oil Control",
+      model: "PF-100",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 449/-",
+    },
+    {
+      image: onetwothreeperfectfoundation,
+      name: "123 PERFECT Foundation",
+      model: "MSF-03",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 399/-",
+    },
+    {
+      image: shimmerlightbasefoundation,
+      name: "SHIMMER LIGHT Base Foundation",
+      model: "FM-02",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 249/-",
+    },
+    {
+      image: verymeperfectskinglow,
+      name: "VERY ME Perfect Skin Glow",
+      model: "FT-09",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: realbaseoilfreefoundation,
+      name: "REAL BASE Oil Free Foundation",
+      model: "FT-010",
+      availablevaraints: "Available in 5 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: threeinoneoilfreefoundation,
+      name: "3 in 1 Oil Free Foundation",
+      model: "FT-012",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 265/-",
+    },
+    {
+      image: fitforufoundation,
+      name: "FIT FOR U Foundation",
+      model: "FT-013",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 249/-",
+    },
+    {
+      image: bbfoundation,
+      name: "BB Foundation",
+      model: "FT-014",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 279/-",
+    },
+    {
+      image: lightmefoundation,
+      name: "LIGHT ME Foundation",
+      model: "FT-015",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: luxlightrevitializing,
+      name: "LUXLIGHT REVITALIZING FOUNDATION",
+      model: "FT-16",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 425/-",
+    },
+    {
+      image: bbfoundationcream,
+      name: "BB Foundation Cream",
+      model: "FT-17",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 325/-",
     },
   ];
   const defaultProducts  = [
