@@ -176,6 +176,26 @@ import bbfoundation from "../assets/images/Colors Queen/89.jpg";
 import lightmefoundation from "../assets/images/Colors Queen/90.jpg";
 import luxlightrevitializing from "../assets/images/Colors Queen/91.jpg";
 import bbfoundationcream from "../assets/images/Colors Queen/92.jpg";
+import cchealthyglowcream from "../assets/images/Colors Queen/93.jpg";
+import dreammoussefoundation from "../assets/images/Colors Queen/94.jpg";
+import cushionconcealerstick from "../assets/images/Colors Queen/95.jpg";
+import cushionliquidbeautyconcealer from "../assets/images/Colors Queen/96.jpg";
+import primerandconcealer from "../assets/images/Colors Queen/97.jpg";
+import contourcreamkit from "../assets/images/Colors Queen/98.jpg";
+import basepattacreamfoundation from "../assets/images/Colors Queen/99.jpg";
+import matteliquidconcealer from "../assets/images/Colors Queen/100.jpg";
+import perfectoilfreebaseconcealer from "../assets/images/Colors Queen/101.jpg";
+import faceworkconcealer from "../assets/images/Colors Queen/102.jpg";
+import perfectcoveragebasefoundationcream from "../assets/images/Colors Queen/103.jpg";
+import coverupconcealer from "../assets/images/Colors Queen/104.jpg";
+import fixandblend from "../assets/images/Colors Queen/105.jpg";
+import youngagefacebrightner from "../assets/images/Colors Queen/106.jpg";
+import glimmershimmerfaceandbody from "../assets/images/Colors Queen/107.jpg";
+import wetsethighlighter from "../assets/images/Colors Queen/108.jpg";
+import endlesscharmfaceandbody from "../assets/images/Colors Queen/109.jpg";
+import toomuchbakedhighlighter from "../assets/images/Colors Queen/110.jpg";
+import glowandglow from "../assets/images/Colors Queen/111.jpg";
+import diamondmakeupbase from "../assets/images/Colors Queen/112.jpg";
 
 
 import { BsChevronDown } from "react-icons/bs";
@@ -1856,6 +1876,146 @@ function Products({ category }) {
       model: "FT-17",
       availablevaraints: "Available in 4 shades",
       mrp: "₹ 325/-",
+    },
+    {
+      image: cchealthyglowcream,
+      name: "CC Healthy Glow Cream",
+      model: "CCF-04",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: dreammoussefoundation,
+      name: "DREAM MOUSSE Foundation",
+      model: "MTF-04",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 425/-",
+    },
+    {
+      image: cushionconcealerstick,
+      name: "CUSHION Concealer Stick",
+      model: "CPS-020",
+      availablevaraints: "Available in 5 shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: cushionliquidbeautyconcealer,
+      name: "CUSHION LIQUID Beauty Concealer",
+      model: "CNC-02",
+      availablevaraints: "Available in 5 shades",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: primerandconcealer,
+      name: "PRIMER & CONCEALER",
+      model: "PCT-01",
+      availablevaraints: "Available in 6 shades",
+      mrp: "₹ 249/-",
+    },
+    {
+      image: contourcreamkit,
+      name: "CONTOUR CREAM KIT",
+      model: "BK-15",
+      availablevaraints: "Available",
+      mrp: "₹ 449/-",
+    },
+    {
+      image: basepattacreamfoundation,
+      name: "BASE PATTA Cream Foundation",
+      model: "CQ-06",
+      availablevaraints: "Available in 13 shades",
+      mrp: "₹ 249/-",
+    },
+    {
+      image: matteliquidconcealer,
+      name: "MATTE LIQUID CONCEALER",
+      model: "LC-01",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: perfectoilfreebaseconcealer,
+      name: "PERFECT Oil Free Base Concealer",
+      model: "PS-06",
+      availablevaraints: "Available in 6 shades",
+      mrp: "₹ 289/-",
+    },
+    {
+      image: faceworkconcealer,
+      name: "FACE WORK Concealer",
+      model: "PS-07",
+      availablevaraints: "Available in 6 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: perfectcoveragebasefoundationcream,
+      name: "PERFECT COVERAGE Base Foundation Cream 24 Hour",
+      model: "BC-11",
+      availablevaraints: "Available in 6 shades",
+      mrp: "₹ 149/-",
+    },
+    {
+      image: coverupconcealer,
+      name: "COVER UP Concealer",
+      model: "CS-09",
+      availablevaraints: "Available",
+      mrp: "₹ 125/-",
+    },
+    {
+      image: fixandblend,
+      name: "FIX & BLEND",
+      model: "PS-08",
+      availablevaraints: "Available in 9 shades",
+      mrp: "₹ 475/-",
+    },
+    {
+      image: youngagefacebrightner,
+      name: "YOUNG AGE Face Brightner",
+      model: "FBC-01",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 175/-",
+    },
+    {
+      image: glimmershimmerfaceandbody,
+      name: "GLIMMER Shimmer Face & Body",
+      model: "BS-11",
+      availablevaraints: "Available in 6 shades",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: wetsethighlighter,
+      name: "WET SET Highlighter",
+      model: "WES-01",
+      availablevaraints: "Available in 12 shades",
+      mrp: "₹ 160/-",
+    },
+    {
+      image: endlesscharmfaceandbody,
+      name: "ENDLESS CHARM Face & Body Highlight Shimmer",
+      model: "BS-03",
+      availablevaraints: "Available in 12 shades",
+      mrp: "₹ 149/-",
+    },
+    {
+      image: toomuchbakedhighlighter,
+      name: "TOO MUCH Baked Highlighter",
+      model: "BH-06",
+      availablevaraints: "Available in 6 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: glowandglow,
+      name: "GLOW & GLOW Highlighter Stick",
+      model: "GC-010",
+      availablevaraints: "Available",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: diamondmakeupbase,
+      name: "DIAMOND Makeup Base",
+      model: "HBD-01",
+      availablevaraints: "Available in Silver shades",
+      mrp: "₹ 259/-",
     },
   ];
   const defaultProducts  = [
