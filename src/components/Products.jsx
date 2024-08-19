@@ -196,7 +196,11 @@ import endlesscharmfaceandbody from "../assets/images/Colors Queen/109.jpg";
 import toomuchbakedhighlighter from "../assets/images/Colors Queen/110.jpg";
 import glowandglow from "../assets/images/Colors Queen/111.jpg";
 import diamondmakeupbase from "../assets/images/Colors Queen/112.jpg";
-
+import primerandfine from "../assets/images/Colors Queen/113.jpg";
+import perfectbalanceprimer from "../assets/images/Colors Queen/114.jpg";
+import primerradiantperfecting from "../assets/images/Colors Queen/115.jpg";
+import flawlessmakeupprimer from "../assets/images/Colors Queen/116.jpg";
+import faceserumglow from "../assets/images/Colors Queen/117.jpg";
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -2016,6 +2020,41 @@ function Products({ category }) {
       model: "HBD-01",
       availablevaraints: "Available in Silver shades",
       mrp: "₹ 259/-",
+    },
+    {
+      image: primerandfine,
+      name: "PRIME & FINE Beautifying Primer",
+      model: "GP-04",
+      availablevaraints: "Available",
+      mrp: "₹ 499/-",
+    },
+    {
+      image: perfectbalanceprimer,
+      name: "PERFECT BALANCE Primer",
+      model: "GP-05",
+      availablevaraints: "Available",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: primerradiantperfecting,
+      name: "PRIMER Radiant Perfecting Primer + Finisher Base Perfectrice Illumine + fixe",
+      model: "GP-08",
+      availablevaraints: "Available",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: flawlessmakeupprimer,
+      name: "FLAWLESS MAKEUP BASE PRIMER",
+      model: "WGP-06",
+      availablevaraints: "Available",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: faceserumglow,
+      name: "FACE SERUM Glow Primer Oil",
+      model: "FS-22",
+      availablevaraints: "Available",
+      mrp: "₹ 399/-",
     },
   ];
   const defaultProducts  = [
