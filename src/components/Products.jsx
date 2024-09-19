@@ -201,6 +201,29 @@ import perfectbalanceprimer from "../assets/images/Colors Queen/114.jpg";
 import primerradiantperfecting from "../assets/images/Colors Queen/115.jpg";
 import flawlessmakeupprimer from "../assets/images/Colors Queen/116.jpg";
 import faceserumglow from "../assets/images/Colors Queen/117.jpg";
+import bakedrouge from "../assets/images/Colors Queen/118.jpg";
+import masterchrome from "../assets/images/Colors Queen/119.jpg";
+import blushandcontour from "../assets/images/Colors Queen/120.jpg";
+import catchthelight from "../assets/images/Colors Queen/121.jpg";
+import fantasyhighlighter from "../assets/images/Colors Queen/122.jpg";
+import glamhighlighter from "../assets/images/Colors Queen/123.jpg";
+import spotlightglitterpalette from "../assets/images/Colors Queen/124.jpg";
+import glitteringpalette from "../assets/images/Colors Queen/125.jpg";
+import prettyeyes from "../assets/images/Colors Queen/126.jpg";
+import gorgeouscolors from "../assets/images/Colors Queen/127.jpg";
+import brilliant from "../assets/images/Colors Queen/128.jpg";
+import glamhollywoodromantic from "../assets/images/Colors Queen/129.jpg";
+import smokeyandhollywood28 from "../assets/images/Colors Queen/130.jpg";
+import smokeyandhollywood24 from "../assets/images/Colors Queen/131.jpg";
+import eyelandbabes from "../assets/images/Colors Queen/132.jpg";
+import hollywoodbollywood32 from "../assets/images/Colors Queen/133.jpg";
+import quickandeasyeyeshow from "../assets/images/Colors Queen/134.jpg";
+import iconeyeseyeshadow from "../assets/images/Colors Queen/135.jpg";
+import twinkleeyeshadow from "../assets/images/Colors Queen/136.jpg";
+import fantasyfaces from "../assets/images/Colors Queen/137.jpg";
+import faceflawless from "../assets/images/Colors Queen/138.jpg";
+import megastarmixeyeshow from "../assets/images/Colors Queen/139.jpg";
+
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -2055,6 +2078,160 @@ function Products({ category }) {
       model: "FS-22",
       availablevaraints: "Available",
       mrp: "₹ 399/-",
+    },
+    {
+      image: bakedrouge,
+      name: "BAKED ROUGE Blusher",
+      model: "BB-26",
+      availablevaraints: "Available in 26 shades",
+      mrp: "₹ 320/-",
+    },
+    {
+      image: masterchrome,
+      name: "MASTER CHROME",
+      model: "MC-04",
+      availablevaraints: "Available in 9 shades",
+      mrp: "₹ 279/-",
+    },
+    {
+      image: blushandcontour,
+      name: "BLUSH & CONTOUR",
+      model: "BL-05",
+      availablevaraints: "Available",
+      mrp: "₹ 199/-",
+    },
+    {
+      image: catchthelight,
+      name: "CATCH THE LIGHT Eye Shadow & Blusher",
+      model: "SES-19",
+      availablevaraints: "Available in 36 shades",
+      mrp: "₹ 249/-",
+    },
+    {
+      image: fantasyhighlighter,
+      name: "FANTASY Highlighter",
+      model: "FHB-04",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: glamhighlighter,
+      name: "GLAM Highlighter",
+      model: "GHB-04",
+      availablevaraints: "Available in 8 shades",
+      mrp: "₹ 329/-",
+    },
+    {
+      image: spotlightglitterpalette,
+      name: "SPOTLIGHT Glitter Palette",
+      model: "GE-9",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: glitteringpalette,
+      name: "GLITTERING PALETTE",
+      model: "GE-15",
+      availablevaraints: "Available in shades",
+      mrp: "₹ 349/-",
+    },
+    {
+      image: prettyeyes,
+      name: "PRETTY EYES 70 Colors Eyeshadow",
+      model: "ES-70",
+      availablevaraints: "Available in shades",
+      mrp: "₹ 999/-",
+    },
+    {
+      image: gorgeouscolors,
+      name: "GORGEOUS COLORS Body Professional Make-up",
+      model: "ES-13",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 425/-",
+    },
+    {
+      image: brilliant,
+      name: "BRILLIANT 18 Colors Eyeshadow",
+      model: "ES-18",
+      availablevaraints: "Available in shades",
+      mrp: "₹ 199/-",
+    },
+    {
+      image: glamhollywoodromantic,
+      name: "GLAM HOLLYWOOD ROMANTIC Eyeshadow for Professional",
+      model: "ES-12",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: smokeyandhollywood28,
+      name: "SMOKEY & HOLLYWOOD 28 Eyeshadow Palette",
+      model: "NE-28",
+      availablevaraints: "Available in shades",
+      mrp: "₹ 349/-",
+    },
+    {
+      image: smokeyandhollywood24,
+      name: "SMOKEY & HOLLYWOOD 24 Eyeshadow Palette",
+      model: "NE-24",
+      availablevaraints: "Available in shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: eyelandbabes,
+      name: "EYELAND BABES EYESHADOW (2 Color)",
+      model: "ES-25",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 479/-",
+    },
+    {
+      image: hollywoodbollywood32,
+      name: "HOLLYWOOD BOLLYWOOD 32 Eyeshadow Palette",
+      model: "ES-32",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 525/-",
+    },
+    {
+      image: quickandeasyeyeshow,
+      name: "QUICK & EASY Eyeshadow (1 Color)",
+      model: "ES-30",
+      availablevaraints: "Available in shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: iconeyeseyeshadow,
+      name: "ICON EYES Eyeshadow",
+      model: "EB-11",
+      availablevaraints: "Available in shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: twinkleeyeshadow,
+      name: "TWINKLE Eyeshadow",
+      model: "ES-51",
+      availablevaraints: "Available in shades",
+      mrp: "₹ 699/-",
+    },
+    {
+      image: fantasyfaces,
+      name: "FANTASY FACES",
+      model: "EB-41",
+      availablevaraints: "Available in shades",
+      mrp: "₹ 649/-",
+    },
+    {
+      image: faceflawless,
+      name: "FACE FLAWLESS Eyeshadow + Highlighter + Blush",
+      model: "BK-41",
+      availablevaraints: "Available in shades",
+      mrp: "₹ 840/-",
+    },
+    {
+      image: megastarmixeyeshow,
+      name: "MEGA STAR Mix Eyeshadow",
+      model: "BK-44",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 975/-",
     },
   ];
   const defaultProducts  = [
