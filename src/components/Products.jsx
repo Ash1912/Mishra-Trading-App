@@ -223,7 +223,39 @@ import twinkleeyeshadow from "../assets/images/Colors Queen/136.jpg";
 import fantasyfaces from "../assets/images/Colors Queen/137.jpg";
 import faceflawless from "../assets/images/Colors Queen/138.jpg";
 import megastarmixeyeshow from "../assets/images/Colors Queen/139.jpg";
-
+import endlessglow from "../assets/images/Colors Queen/140.jpg";
+import shineonface from "../assets/images/Colors Queen/141.jpg";
+import moonstar from "../assets/images/Colors Queen/142.jpg";
+import beautybar from "../assets/images/Colors Queen/143.jpg";
+import dreamtouch from "../assets/images/Colors Queen/144.jpg"
+import ikiteyeshadow from "../assets/images/Colors Queen/145.jpg";
+import followmemakeupkit from "../assets/images/Colors Queen/146.jpg";
+import makeupstudio from "../assets/images/Colors Queen/147.jpg";
+import afterpartymakeupkit from "../assets/images/Colors Queen/148.jpg";
+import essentialsmakeupkit from "../assets/images/Colors Queen/149.jpg";
+import eyeseeyou from "../assets/images/Colors Queen/150.jpg";
+import partytime from "../assets/images/Colors Queen/151.jpg";
+import dreamglow from "../assets/images/Colors Queen/152.jpg";
+import swagmakeupkit from "../assets/images/Colors Queen/153.jpg";
+import facestudiomakeupkit from "../assets/images/Colors Queen/154.jpg";
+import spectralight from "../assets/images/Colors Queen/155.jpg";
+import itensitymakeupkit from "../assets/images/Colors Queen/156.jpg";
+import berryandbright from "../assets/images/Colors Queen/157.jpg";
+import arianamakeupkit from "../assets/images/Colors Queen/158.jpg";
+import alexabakedblushing from "../assets/images/Colors Queen/159.jpg";
+import timelockerfixerspray from "../assets/images/Colors Queen/160.jpg";
+import fixquicklymakeupsettingspray from "../assets/images/Colors Queen/161.jpg";
+import goodglowmakeupfixer from "../assets/images/Colors Queen/162.jpg";
+import saubhagyawati from "../assets/images/Colors Queen/163.jpg";
+import streejalmaysindoor from "../assets/images/Colors Queen/164.jpg";
+import expressionsindoor from "../assets/images/Colors Queen/165.jpg";
+import naturalwaterproofsindoor from "../assets/images/Colors Queen/166.jpg";
+import jawalsindoor from "../assets/images/Colors Queen/167.jpg";
+import blessingbridalsindoor from "../assets/images/Colors Queen/168.jpg";
+import sanskritsindoor from "../assets/images/Colors Queen/169.jpg";
+import skyeyesglittereyeliner from "../assets/images/Colors Queen/170.jpg";
+import eyelashes from "../assets/images/Colors Queen/171.jpg";
+import magneticeyelinereyelash from "../assets/images/Colors Queen/172.jpg";
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -2132,14 +2164,14 @@ function Products({ category }) {
       image: glitteringpalette,
       name: "GLITTERING PALETTE",
       model: "GE-15",
-      availablevaraints: "Available in shades",
+      availablevaraints: "Available",
       mrp: "₹ 349/-",
     },
     {
       image: prettyeyes,
       name: "PRETTY EYES 70 Colors Eyeshadow",
       model: "ES-70",
-      availablevaraints: "Available in shades",
+      availablevaraints: "Available",
       mrp: "₹ 999/-",
     },
     {
@@ -2153,7 +2185,7 @@ function Products({ category }) {
       image: brilliant,
       name: "BRILLIANT 18 Colors Eyeshadow",
       model: "ES-18",
-      availablevaraints: "Available in shades",
+      availablevaraints: "Available",
       mrp: "₹ 199/-",
     },
     {
@@ -2167,14 +2199,14 @@ function Products({ category }) {
       image: smokeyandhollywood28,
       name: "SMOKEY & HOLLYWOOD 28 Eyeshadow Palette",
       model: "NE-28",
-      availablevaraints: "Available in shades",
+      availablevaraints: "Available",
       mrp: "₹ 349/-",
     },
     {
       image: smokeyandhollywood24,
       name: "SMOKEY & HOLLYWOOD 24 Eyeshadow Palette",
       model: "NE-24",
-      availablevaraints: "Available in shades",
+      availablevaraints: "Available",
       mrp: "₹ 299/-",
     },
     {
@@ -2195,35 +2227,35 @@ function Products({ category }) {
       image: quickandeasyeyeshow,
       name: "QUICK & EASY Eyeshadow (1 Color)",
       model: "ES-30",
-      availablevaraints: "Available in shades",
+      availablevaraints: "Available",
       mrp: "₹ 325/-",
     },
     {
       image: iconeyeseyeshadow,
       name: "ICON EYES Eyeshadow",
       model: "EB-11",
-      availablevaraints: "Available in shades",
+      availablevaraints: "Available",
       mrp: "₹ 325/-",
     },
     {
       image: twinkleeyeshadow,
       name: "TWINKLE Eyeshadow",
       model: "ES-51",
-      availablevaraints: "Available in shades",
+      availablevaraints: "Available",
       mrp: "₹ 699/-",
     },
     {
       image: fantasyfaces,
       name: "FANTASY FACES",
       model: "EB-41",
-      availablevaraints: "Available in shades",
+      availablevaraints: "Available",
       mrp: "₹ 649/-",
     },
     {
       image: faceflawless,
       name: "FACE FLAWLESS Eyeshadow + Highlighter + Blush",
       model: "BK-41",
-      availablevaraints: "Available in shades",
+      availablevaraints: "Available",
       mrp: "₹ 840/-",
     },
     {
@@ -2232,6 +2264,237 @@ function Products({ category }) {
       model: "BK-44",
       availablevaraints: "Available in 2 shades",
       mrp: "₹ 975/-",
+    },
+    {
+      image: endlessglow,
+      name: "ENDLESS GLOW Makeup Kit",
+      model: "GG-04",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 499/-",
+    },
+    {
+      image: shineonface,
+      name: "SHINE ON FACE",
+      model: "MK-82",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: moonstar,
+      name: "MOON STAR Body Professional Make-up",
+      model: "GE-06",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: beautybar,
+      name: "BEAUTY BAR",
+      model: "MK-333",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: dreamtouch,
+      name: "DREAM TOUCH",
+      model: "TC-06",
+      availablevaraints: "Available in 3 shades",
+      mrp: "₹ 499/-",
+    },
+    {
+      image: ikiteyeshadow,
+      name: "I KIT Eyeshadow",
+      model: "IPS-12",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: followmemakeupkit,
+      name: "FOLLOW ME Makeup Kit",
+      model: "MK-18",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 479/-",
+    },
+    {
+      image: makeupstudio,
+      name: "MAKEUP STUDIO",
+      model: "MK-19",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: afterpartymakeupkit,
+      name: "AFTER PARTY Makeup Kit",
+      model: "MK-21",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: essentialsmakeupkit,
+      name: "ESSENTIALS Makeup Kit",
+      model: "MK-26",
+      availablevaraints: "Available in 1 shades",
+      mrp: "₹ 479/-",
+    },
+    {
+      image: eyeseeyou,
+      name: "EYE SEE YOU Makeup Kit",
+      model: "MK-27",
+      availablevaraints: "Available",
+      mrp: "₹ 649/-",
+    },
+    {
+      image: partytime,
+      name: "PARTY TIME Makeup Kit",
+      model: "MK-28",
+      availablevaraints: "Available",
+      mrp: "₹ 599/-",
+    },
+    {
+      image: dreamglow,
+      name: "DREAM GLOW Makeup Kit",
+      model: "MK-29",
+      availablevaraints: "Available",
+      mrp: "₹ 749/-",
+    },
+    {
+      image: swagmakeupkit,
+      name: "SWAG Makeup Kit",
+      model: "MK-33",
+      availablevaraints: "Available",
+      mrp: "₹ 549/-",
+    },
+    {
+      image: facestudiomakeupkit,
+      name: "FACE STUDIO Makeup Kit",
+      model: "MK-40",
+      availablevaraints: "Available",
+      mrp: "₹ 599/-",
+    },
+    {
+      image: spectralight,
+      name: "SPECTRA LIGHT Makeup Kit",
+      model: "MK-62",
+      availablevaraints: "Available",
+      mrp: "₹ 1399/-",
+    },
+    {
+      image: itensitymakeupkit,
+      name: "ITENSITY Makeup Kit",
+      model: "MK-57",
+      availablevaraints: "Available",
+      mrp: "₹ 1149/-",
+    },
+    {
+      image: berryandbright,
+      name: "BERRY & BRIGHT Makeup Kit",
+      model: "MK-89",
+      availablevaraints: "Available",
+      mrp: "₹ 1500/-",
+    },
+    {
+      image: arianamakeupkit,
+      name: "ARIANA MAKEUP KIT",
+      model: "1021",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 379/-",
+    },
+    {
+      image: alexabakedblushing,
+      name: "ALEXA Baked Blushing",
+      model: "TC-03",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 325/-",
+    },
+    {
+      image: timelockerfixerspray,
+      name: "TIME LOCKER Fixer Spray",
+      model: "MF-012",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: fixquicklymakeupsettingspray,
+      name: "FIX QUICKLY Makeup Setting Spray",
+      model: "MF-013",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: goodglowmakeupfixer,
+      name: "GOOD GLOW Makeup Fixer",
+      model: "MFG-03",
+      availablevaraints: "Available",
+      mrp: "₹ 399/-",
+    },
+    {
+      image: saubhagyawati,
+      name: "SAUBHAGYAWATI Liquid Sindoor 6 + 1 Tester Free",
+      model: "S-14",
+      availablevaraints: "Available in Red & Mehroon shades",
+      mrp: "₹ 70/-",
+    },
+    {
+      image: streejalmaysindoor,
+      name: "Stree Jalmay Sindoor Waterproof",
+      model: "SJ-02",
+      availablevaraints: "Available in Red & Mehroon shades",
+      mrp: "₹ 35/-",
+    },
+    {
+      image: expressionsindoor,
+      name: "EXPRESSION SINDOOR 6 + 1 Tester Free",
+      model: "",
+      availablevaraints: "Available in Red & Mehroon shades",
+      mrp: "₹ 80/-",
+    },
+    {
+      image: naturalwaterproofsindoor,
+      name: "100% NATURAL WaterProof Sindoor",
+      model: "",
+      availablevaraints: "Available in Red & Mehroon shades",
+      mrp: "₹ 69/-",
+    },
+    {
+      image: jawalsindoor,
+      name: "JAWAL SINDOOR",
+      model: "",
+      availablevaraints: "Available in Red & Mehroon shades",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: blessingbridalsindoor,
+      name: "BLESSING Bridal Liquid Sindoor Waterproof",
+      model: "LS-12",
+      availablevaraints: "Available in Red & Mehroon shades",
+      mrp: "₹ 125/-",
+    },
+    {
+      image: sanskritsindoor,
+      name: "SANSKRIT Sindoor",
+      model: "LS-40",
+      availablevaraints: "Available in Red & Mehroon shades",
+      mrp: "₹ 149/-",
+    },
+    {
+      image: skyeyesglittereyeliner,
+      name: "SKY EYES Glitter Eyeliner",
+      model: "GEL-17",
+      availablevaraints: "Available in 14 shades",
+      mrp: "₹ 189/-",
+    },
+    {
+      image: eyelashes,
+      name: "EYE LASHES",
+      model: "EL-07",
+      availablevaraints: "Available in 6 shades",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: magneticeyelinereyelash,
+      name: "Magnetic Eyeliner Eyelash",
+      model: "EL-08",
+      availablevaraints: "Available in 8 shades",
+      mrp: "₹ 450/-",
     },
   ];
   const defaultProducts  = [
