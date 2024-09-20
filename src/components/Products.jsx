@@ -256,6 +256,36 @@ import sanskritsindoor from "../assets/images/Colors Queen/169.jpg";
 import skyeyesglittereyeliner from "../assets/images/Colors Queen/170.jpg";
 import eyelashes from "../assets/images/Colors Queen/171.jpg";
 import magneticeyelinereyelash from "../assets/images/Colors Queen/172.jpg";
+import goldenpenhighteceyeliner from "../assets/images/Colors Queen/173.jpg";
+import charmingdoubleeyeliner from "../assets/images/Colors Queen/174.jpg";
+import eyestudio from "../assets/images/Colors Queen/175.jpg";
+import glamorousultramatte from "../assets/images/Colors Queen/176.jpg";
+import dynamicperfecteyelinerpen from "../assets/images/Colors Queen/177.jpg";
+import supereyeliner from "../assets/images/Colors Queen/178.jpg";
+import supermascara from "../assets/images/Colors Queen/179.jpg";
+import blackmagiceyeliner from "../assets/images/Colors Queen/180.jpg";
+import magneteyesmascara from "../assets/images/Colors Queen/181.jpg";
+import eyeboostereyeliner from "../assets/images/Colors Queen/182.jpg";
+import eyelashmascara from "../assets/images/Colors Queen/183.jpg";
+import infallibleeyeliner from "../assets/images/Colors Queen/184.jpg";
+import infalliblemascara from "../assets/images/Colors Queen/185.jpg";
+import hightecheyeliner from "../assets/images/Colors Queen/186.jpg";
+import hightechmascara from "../assets/images/Colors Queen/187.jpg";
+import alleyeseyeliner from "../assets/images/Colors Queen/188.jpg";
+import tintandliftmascara from "../assets/images/Colors Queen/189.jpg";
+import regulareyeliner from "../assets/images/Colors Queen/190.jpg";
+import regularmascara from "../assets/images/Colors Queen/191.jpg";
+import premiumeyeliner from "../assets/images/Colors Queen/192.jpg";
+import premiummascara from "../assets/images/Colors Queen/193.jpg";
+import shinelineeyeliner from "../assets/images/Colors Queen/194.jpg";
+import lashlookmascara from "../assets/images/Colors Queen/195.jpg";
+import onestroke from "../assets/images/Colors Queen/196.jpg";
+import cuteeyesloose from "../assets/images/Colors Queen/197.jpg";
+import onestrockwooden from "../assets/images/Colors Queen/198.jpg";
+import cuteeyeswooden from "../assets/images/Colors Queen/199.jpg";
+import highintensityrevolvingeyepencil from "../assets/images/Colors Queen/200.jpg";
+import hdgelkohlkajal from "../assets/images/Colors Queen/201.jpg";
+import kohloflove from "../assets/images/Colors Queen/202.jpg";
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -2495,6 +2525,216 @@ function Products({ category }) {
       model: "EL-08",
       availablevaraints: "Available in 8 shades",
       mrp: "₹ 450/-",
+    },
+    {
+      image: goldenpenhighteceyeliner,
+      name: "GOLDEN PEN Hightec Eyeliner 12 + 1 Tester Free",
+      model: "PEG-43",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: charmingdoubleeyeliner,
+      name: "CHARMING Double Eyeliner",
+      model: "PED-02",
+      availablevaraints: "Available",
+      mrp: "₹ 269/-",
+    },
+    {
+      image: eyestudio,
+      name: "EYE STUDIO Eyeliner Professional Makeup",
+      model: "PE-12",
+      availablevaraints: "Available",
+      mrp: "₹ 150/-",
+    },
+    {
+      image: glamorousultramatte,
+      name: "GLAMOROUS ULTRA MATTE Finish Eyeliner 6 + 1 Tester Free",
+      model: "PE-02",
+      availablevaraints: "Available",
+      mrp: "₹ 185/-",
+    },
+    {
+      image: dynamicperfecteyelinerpen,
+      name: "DYNAMIC Perfect Eyeliner Pen",
+      model: "PE-01",
+      availablevaraints: "Available",
+      mrp: "₹ 249/-",
+    },
+    {
+      image: supereyeliner,
+      name: "SUPER Eyeliner",
+      model: "L-001",
+      availablevaraints: "Available",
+      mrp: "₹ 180/-",
+    },
+    {
+      image: supermascara,
+      name: "SUPER Mascara",
+      model: "M-001",
+      availablevaraints: "Available",
+      mrp: "₹ 180/-",
+    },
+    {
+      image: blackmagiceyeliner,
+      name: "BLACK MAGIC Eyeliner",
+      model: "L-003",
+      availablevaraints: "Available",
+      mrp: "₹ 199/-",
+    },
+    {
+      image: magneteyesmascara,
+      name: "MAGNETEYES Mascara",
+      model: "M-003",
+      availablevaraints: "Available",
+      mrp: "₹ 255/-",
+    },
+    {
+      image: eyeboostereyeliner,
+      name: "EYE BOOSTER Eyeliner",
+      model: "L-004",
+      availablevaraints: "Available",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: eyelashmascara,
+      name: "EYELASH Mascara",
+      model: "M-004",
+      availablevaraints: "Available",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: infallibleeyeliner,
+      name: "INFALLIBLE Eyeliner",
+      model: "L-006",
+      availablevaraints: "Available",
+      mrp: "₹ 199/-",
+    },
+    {
+      image: infalliblemascara,
+      name: "INFALLIBLE Mascara",
+      model: "M-006",
+      availablevaraints: "Available",
+      mrp: "₹ 199/-",
+    },
+    {
+      image: hightecheyeliner,
+      name: "HIGH-TECH Eyeliner",
+      model: "L-07",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: hightechmascara,
+      name: "HIGH-TECH Mascara",
+      model: "M-07",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: alleyeseyeliner,
+      name: "ALL EYES Eyeliner",
+      model: "L-005",
+      availablevaraints: "Available",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: tintandliftmascara,
+      name: "TINT & LIFT Mascara",
+      model: "M-005",
+      availablevaraints: "Available",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: regulareyeliner,
+      name: "REGULAR Eyeliner 12 + 2 Tester Free",
+      model: "RE-12",
+      availablevaraints: "Available",
+      mrp: "₹ 65/-",
+    },
+    {
+      image: regularmascara,
+      name: "REGULAR Mascara 12 + 2 Tester Free",
+      model: "RM-11",
+      availablevaraints: "Available",
+      mrp: "₹ 65/-",
+    },
+    {
+      image: premiumeyeliner,
+      name: "PREMIUM Eyeliner 12 + 2 Tester Free",
+      model: "PE-22",
+      availablevaraints: "Available",
+      mrp: "₹ 120/-",
+    },
+    {
+      image: premiummascara,
+      name: "PREMIUM Mascara 12 + 2 Tester Free",
+      model: "PM-22",
+      availablevaraints: "Available",
+      mrp: "₹ 120/-",
+    },
+    {
+      image: shinelineeyeliner,
+      name: "SHINE LINE Eyeliner",
+      model: "L-008",
+      availablevaraints: "Available",
+      mrp: "₹ 245/-",
+    },
+    {
+      image: lashlookmascara,
+      name: "LASH LOOK Mascara",
+      model: "M-008",
+      availablevaraints: "Available",
+      mrp: "₹ 275/-",
+    },
+    {
+      image: onestroke,
+      name: "ONE STROKE Khol Kajal Eye Liner",
+      model: "PK-01",
+      availablevaraints: "Available",
+      mrp: "₹ 269/-",
+    },
+    {
+      image: cuteeyesloose,
+      name: "CUTE EYES Loose Auto Revolving Kajal",
+      model: "AK-02",
+      availablevaraints: "Available",
+      mrp: "₹ 249/-",
+    },
+    {
+      image: onestrockwooden,
+      name: "ONE STROCK Wooden",
+      model: "PKW-01",
+      availablevaraints: "Available",
+      mrp: "₹ 269/-",
+    },
+    {
+      image: cuteeyeswooden,
+      name: "CUTE EYES Wooden",
+      model: "AKW-02",
+      availablevaraints: "Available",
+      mrp: "₹ 249/-",
+    },
+    {
+      image: highintensityrevolvingeyepencil,
+      name: "HIGH INTENSITY Revolving Eye Pencil with Sharpner",
+      model: "PK-01",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: hdgelkohlkajal,
+      name: "HD Gel Kohl Kajal Card Packing",
+      model: "AK-02",
+      availablevaraints: "Available",
+      mrp: "₹ 249/-",
+    },
+    {
+      image: kohloflove,
+      name: "KOHL OF LOVE Gel Kajal Card Packing",
+      model: "KA-02",
+      availablevaraints: "Available",
+      mrp: "₹ 149/-",
     },
   ];
   const defaultProducts  = [
