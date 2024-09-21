@@ -286,6 +286,18 @@ import cuteeyeswooden from "../assets/images/Colors Queen/199.jpg";
 import highintensityrevolvingeyepencil from "../assets/images/Colors Queen/200.jpg";
 import hdgelkohlkajal from "../assets/images/Colors Queen/201.jpg";
 import kohloflove from "../assets/images/Colors Queen/202.jpg";
+import beautyforreal from "../assets/images/Colors Queen/203.jpg";
+import gelkajal from "../assets/images/Colors Queen/204.jpg";
+import elegantlongwear from "../assets/images/Colors Queen/205.jpg";
+import softkajal from "../assets/images/Colors Queen/206.jpg";
+import purewhiteautokajal from "../assets/images/Colors Queen/207.jpg";
+import easybrowpencil from "../assets/images/Colors Queen/208.jpg";
+import browmaster from "../assets/images/Colors Queen/209.jpg";
+import colorclub from "../assets/images/Colors Queen/210.jpg";
+import touchfeel from "../assets/images/Colors Queen/211.jpg";
+import wetshine from "../assets/images/Colors Queen/212.jpg";
+import colorcrush from "../assets/images/Colors Queen/213.jpg";
+import highshinenailpaint from "../assets/images/Colors Queen/214.jpg";
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -2735,6 +2747,90 @@ function Products({ category }) {
       model: "KA-02",
       availablevaraints: "Available",
       mrp: "₹ 149/-",
+    },
+    {
+      image: beautyforreal,
+      name: "BEAUTY FOR REAL Gel Khol Kajal Auto Eye Pencil 12 + 1 Tester Free",
+      model: "AK-03",
+      availablevaraints: "Available",
+      mrp: "₹ 225/-",
+    },
+    {
+      image: gelkajal,
+      name: "GEL KAJAL 2 in 1 Cake Eyeliner",
+      model: "GKT-02",
+      availablevaraints: "Available",
+      mrp: "₹ 349/-",
+    },
+    {
+      image: elegantlongwear,
+      name: "ELEGANT Long Wear",
+      model: "GK-01",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: softkajal,
+      name: "SOFT KAJAL 6 + 1 Tester Free",
+      model: "SF-011",
+      availablevaraints: "Available",
+      mrp: "₹ 125/-",
+    },
+    {
+      image: purewhiteautokajal,
+      name: "PURE WHITE AUTO KAJAL 12 + 1 Tester Free",
+      model: "WAK-01",
+      availablevaraints: "Available",
+      mrp: "₹ 249/-",
+    },
+    {
+      image: easybrowpencil,
+      name: "EASY BROW Easy Brow Pencil",
+      model: "EB-01",
+      availablevaraints: "Available",
+      mrp: "₹ 45/- Pc",
+    },
+    {
+      image: browmaster,
+      name: "BROW MASTER Zed Black & Brown (6 + 1 Tester Free)",
+      model: "EB-03",
+      availablevaraints: "Available",
+      mrp: "₹ 169/-",
+    },
+    {
+      image: colorclub,
+      name: "COLOR CLUB Nail Polish (Box of 12 pcs)",
+      model: "CC-24",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: touchfeel,
+      name: "TOUCH FEEL Nail polish",
+      model: "O-04",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: wetshine,
+      name: "WET SHINE Nail Polish (Box of 24 Pcs.) ",
+      model: "WS-25",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: colorcrush,
+      name: "COLOR CRUSH Nail Polish",
+      model: "BG-068",
+      availablevaraints: "Available in 4 shades",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: highshinenailpaint,
+      name: "HIGH SHINE NAIL PAINT",
+      model: "HNS-100",
+      availablevaraints: "Available in 6 shades",
+      mrp: "₹ 99/-",
     },
   ];
   const defaultProducts  = [
