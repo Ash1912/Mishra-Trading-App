@@ -298,6 +298,58 @@ import touchfeel from "../assets/images/Colors Queen/211.jpg";
 import wetshine from "../assets/images/Colors Queen/212.jpg";
 import colorcrush from "../assets/images/Colors Queen/213.jpg";
 import highshinenailpaint from "../assets/images/Colors Queen/214.jpg";
+import lustrenaillacquer from "../assets/images/Colors Queen/215.jpg";
+import lustremini from "../assets/images/Colors Queen/216.jpg";
+import colorshownailremover from "../assets/images/Colors Queen/217.jpg";
+import indiananailremover from "../assets/images/Colors Queen/218.jpg";
+import indiananailpaintremover from "../assets/images/Colors Queen/219.jpg";
+import instantnaillacquerremover from "../assets/images/Colors Queen/220.jpg";
+import powderbrush from "../assets/images/Colors Queen/221.jpg";
+import primerbrush from "../assets/images/Colors Queen/222.jpg";
+import foundationbrush from "../assets/images/Colors Queen/223.jpg";
+import blusherbrush from "../assets/images/Colors Queen/224.jpg";
+import angularbrush from "../assets/images/Colors Queen/225.jpg";
+import flattipconcealerbrush from "../assets/images/Colors Queen/226.jpg";
+import flattipeyeshadowbrush from "../assets/images/Colors Queen/227.jpg";
+import eyeshadowngularblendingbrush from "../assets/images/Colors Queen/228.jpg";
+import lipbrush from "../assets/images/Colors Queen/229.jpg";
+import eyelinerbrush from "../assets/images/Colors Queen/230.jpg";
+import fanbrush from "../assets/images/Colors Queen/231.jpg";
+import facefeather from "../assets/images/Colors Queen/232.jpg";
+import perfectblush from "../assets/images/Colors Queen/233.jpg";
+import fly from "../assets/images/Colors Queen/234.jpg";
+import flag from "../assets/images/Colors Queen/235.jpg";
+import fan from "../assets/images/Colors Queen/236.jpg";
+import bleachbrush from "../assets/images/Colors Queen/237.jpg";
+import sevenluxury from "../assets/images/Colors Queen/238.jpg";
+import twelveluxury from "../assets/images/Colors Queen/239.jpg";
+import velvetblendersponge from "../assets/images/Colors Queen/240.jpg";
+import velvetblender from "../assets/images/Colors Queen/241.jpg";
+import beautyblender from "../assets/images/Colors Queen/242.jpg";
+import eyelashcurler from "../assets/images/Colors Queen/243.jpg";
+import footscrubber from "../assets/images/Colors Queen/244.jpg";
+import nailfiler from "../assets/images/Colors Queen/245.jpg";
+import purewoodencomb from "../assets/images/Colors Queen/246.jpg";
+import wetwipes from "../assets/images/Colors Queen/247.jpg";
+import nailenamelremoverpad from "../assets/images/Colors Queen/248.jpg";
+import nailpaintremover from "../assets/images/Colors Queen/249.jpg";
+import foammakeupremover from "../assets/images/Colors Queen/250.jpg";
+import cottonpads from "../assets/images/Colors Queen/251.jpg";
+import plucker from "../assets/images/Colors Queen/252.jpg";
+import styleandshape from "../assets/images/Colors Queen/253.jpg";
+import styleandshapemininailclipppers from "../assets/images/Colors Queen/254.jpg";
+import scissor from "../assets/images/Colors Queen/255.jpg";
+import haircomb from "../assets/images/Colors Queen/256.jpg";
+import makeupvanitybox from "../assets/images/Colors Queen/257.jpg";
+import makeupvanitybox2 from "../assets/images/Colors Queen/258.jpg";
+import makeupvanitybox3 from "../assets/images/Colors Queen/259.jpg";
+import makeuppouch from "../assets/images/Colors Queen/260.jpg";
+import hairdryer from "../assets/images/Colors Queen/261.jpg";
+import hairdryer2 from "../assets/images/Colors Queen/262.jpg";
+import prodryer from "../assets/images/Colors Queen/263.jpg";
+import professionaldryer from "../assets/images/Colors Queen/264.jpg";
+import professionalhairstraightner from "../assets/images/Colors Queen/265.jpg";
+import professionalhaircrimping from "../assets/images/Colors Queen/266.jpg";
 
 import { BsChevronDown } from "react-icons/bs";
 function Products({ category }) {
@@ -2832,6 +2884,307 @@ function Products({ category }) {
       availablevaraints: "Available in 6 shades",
       mrp: "₹ 99/-",
     },
+    {
+      image: lustrenaillacquer,
+      name: "LUSTURE NAIL LACQUER",
+      model: " ",
+      availablevaraints: "Available in 11 shades",
+      mrp: "₹ 75/-",
+    },
+    {
+      image: lustremini,
+      name: "LUSTURE (MINI) Nail Lacquer",
+      model: "",
+      availablevaraints: "Available in 11 shades",
+      mrp: "₹ 45/-",
+    },
+    {
+      image: colorshownailremover,
+      name: "COLOR SHOW NAIL REMOVER",
+      model: "NR-30",
+      availablevaraints: "Available",
+      mrp: "₹ 59/-",
+    },
+    {
+      image: indiananailremover,
+      name: "INDIANA Nail Paint Remover",
+      model: "",
+      availablevaraints: "Available",
+      mrp: "₹ 49/-",
+    },
+    {
+      image: indiananailpaintremover,
+      name: "INDIANA NAIL PAINT REMOVER",
+      model: "",
+      availablevaraints: "Available",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: instantnaillacquerremover,
+      name: "INSTANT NAIL LACQUER REMOVER",
+      model: "NR-100",
+      availablevaraints: "Available",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: powderbrush,
+      name: "POWDER BRUSH",
+      model: "MB-01",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: primerbrush,
+      name: "PRIMER BRUSH",
+      model: "MB-02",
+      availablevaraints: "Available",
+      mrp: "₹ 279/-",
+    },
+    {
+      image: foundationbrush,
+      name: "FOUNDATION BRUSH",
+      model: "MB-03",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: blusherbrush,
+      name: "BLUSHER BRUSH",
+      model: "MB-04",
+      availablevaraints: "Available",
+      mrp: "₹ 199/-",
+    },
+    {
+      image: angularbrush,
+      name: "ANGULAR BRUSH",
+      model: "MB-05",
+      availablevaraints: "Available",
+      mrp: "₹ 125/-",
+    },
+    {
+      image: flattipconcealerbrush,
+      name: "FLAT TIP CONCEALER BRUSH",
+      model: "MB-06",
+      availablevaraints: "Available",
+      mrp: "₹ 125/-",
+    },
+    {
+      image: flattipeyeshadowbrush,
+      name: "FLAT TIP EYESHADOW BRUSH",
+      model: "MB-07",
+      availablevaraints: "Available",
+      mrp: "₹ 125/-",
+    },
+    {
+      image: eyeshadowngularblendingbrush,
+      name: "EYESHADOW ANGULAR BLENDING BRUSH",
+      model: "MB-08",
+      availablevaraints: "Available",
+      mrp: "₹ 145/-",
+    },
+    {
+      image: lipbrush,
+      name: "LIP BRUSH",
+      model: "MB-09",
+      availablevaraints: "Available",
+      mrp: "₹ 125/-",
+    },
+    {
+      image: eyelinerbrush,
+      name: "EYELINER BRUSH",
+      model: "MB-10",
+      availablevaraints: "Available",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: fanbrush,
+      name: "FAN BRUSH",
+      model: "MB-11",
+      availablevaraints: "Available",
+      mrp: "₹ 125/-",
+    },
+    {
+      image: facefeather,
+      name: "FACE FEATHER Kill Cover (5 Brush Set)",
+      model: "BC-291",
+      availablevaraints: "Available",
+      mrp: "₹ 140/-",
+    },
+    {
+      image: perfectblush,
+      name: "PERFECT BLUSH Blusher Brush",
+      model: "BC-114",
+      availablevaraints: "Available",
+      mrp: "₹ 145/-",
+    },
+    {
+      image: fly,
+      name: "FLY Brush Set of 7 Pcs",
+      model: "1002",
+      availablevaraints: "Available",
+      mrp: "₹ 149/-",
+    },
+    {
+      image: flag,
+      name: "FLAG Beautiful Brush Set of 5 Pcs",
+      model: "NO.301",
+      availablevaraints: "Available",
+      mrp: "₹ 199/-",
+    },
+    {
+      image: fan,
+      name: "FAN Beautiful Fan Brush Set",
+      model: "NO. 1003",
+      availablevaraints: "Available",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: bleachbrush,
+      name: "BLEACH BRUSH",
+      model: "",
+      availablevaraints: "Available",
+      mrp: "₹ 49/-",
+    },
+    {
+      image: sevenluxury,
+      name: "7 LUXURY Makeup Brush Set",
+      model: "MB-7",
+      availablevaraints: "Available",
+      mrp: "₹ 149/-",
+    },
+    {
+      image: twelveluxury,
+      name: "12 LUXURY Makeup Brush Set",
+      model: "MB-12",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: velvetblendersponge,
+      name: "VELVET BLENDER SPONGE",
+      model: "BF-04",
+      availablevaraints: "Available",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: velvetblender,
+      name: "VELVET BLENDER SPONGE",
+      model: "BF-08",
+      availablevaraints: "Available",
+      mrp: "₹ 499/-",
+    },
+    {
+      image: beautyblender,
+      name: "BEAUTY BLENDER Puff",
+      model: "BF-06",
+      availablevaraints: "Available",
+      mrp: "₹ 89/-",
+    },
+    {
+      image: eyelashcurler,
+      name: "EYELASH CURLER",
+      model: "EC-01",
+      availablevaraints: "Available",
+      mrp: "₹ 149/-",
+    },
+    {
+      image: footscrubber,
+      name: "FOOT SCRUBBER",
+      model: "",
+      availablevaraints: "Available",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: nailfiler,
+      name: "NAIL FILER",
+      model: "NF-01",
+      availablevaraints: "Available",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: purewoodencomb,
+      name: "PURE WODDEN COMB",
+      model: "",
+      availablevaraints: "Available in 6 type",
+      mrp: "₹ 99/-",
+    },
+    {
+      image: wetwipes,
+      name: "WET WIPES",
+      model: "",
+      availablevaraints: "Available",
+      mrp: "₹ 65/-",
+    },
+    {
+      image: nailenamelremoverpad,
+      name: "NAIL ENAMEL REMOVER PAD",
+      model: "NPR-01",
+      availablevaraints: "Available",
+      mrp: "₹ 39/-",
+    },
+    {
+      image: nailpaintremover,
+      name: "NAIL PAINT REMOVER WIPES",
+      model: "NPW-12",
+      availablevaraints: "Available",
+      mrp: "₹ 49/-",
+    },
+    {
+      image: foammakeupremover,
+      name: "FOAM MAKEUP REMOVER",
+      model: "FMR-08",
+      availablevaraints: "Available in 2 shades",
+      mrp: "₹ 299/-",
+    },
+    {
+      image: cottonpads,
+      name: "COTTON PADS",
+      model: "",
+      availablevaraints: "Available in 60 pcs",
+      mrp: "₹ 175/-",
+    },
+    {
+      image: cottonpads,
+      name: "COTTON PADS",
+      model: "",
+      availablevaraints: "Available in 130 pcs",
+      mrp: "₹ 270/-",
+    },
+    {
+      image: plucker,
+      name: "Plucker",
+      model: "",
+      availablevaraints: "Available",
+      mrp: "₹ 65/-",
+    },
+    {
+      image: styleandshape,
+      name: "Style & Shape Nail Clippers",
+      model: "NC-01",
+      availablevaraints: "Available",
+      mrp: "₹ 125/-",
+    },
+    {
+      image: styleandshapemininailclipppers,
+      name: "Style & Shape Mini Nail Clippers",
+      model: "NC-02",
+      availablevaraints: "Available",
+      mrp: "₹ 125/-",
+    },
+    {
+      image: scissor,
+      name: "SCISSOR Stainless Steel",
+      model: "SC-12",
+      availablevaraints: "Available",
+      mrp: "₹ 70/-",
+    },
+    {
+      image: haircomb,
+      name: "HAIR COMB 4 Colors",
+      model: "COM-01",
+      availablevaraints: "Available",
+      mrp: "₹ 60/-",
+    },
   ];
   const defaultProducts  = [
     {
@@ -2861,6 +3214,76 @@ function Products({ category }) {
       model: "Deodorant Body Spray",
       availablevaraints: "Available in: 200ml",
       mrp: "₹ 279/-",
+    },
+    {
+      image: makeupvanitybox,
+      name: "MAKEUP VANITY BOX",
+      model: "",
+      availablevaraints: "Available in 3 pcs set",
+      mrp: "₹ 715/-",
+    },
+    {
+      image: makeupvanitybox2,
+      name: "MAKEUP VANITY BOX",
+      model: "",
+      availablevaraints: "Available in 3 pcs set",
+      mrp: "₹ 715/-",
+    },
+    {
+      image: makeupvanitybox3,
+      name: "MAKEUP VANITY BOX",
+      model: "",
+      availablevaraints: "Available in 3 pcs set",
+      mrp: "₹ 650/-",
+    },
+    {
+      image: makeuppouch,
+      name: "MAKEUP POUCH",
+      model: "1008",
+      availablevaraints: "Available in 3 shades",
+      mrp: "",
+    },
+    {
+      image: hairdryer,
+      name: "HAIR DRYER (1800 Watt) Hot & Cold (6 Months Warranty)",
+      model: "DY-04",
+      availablevaraints: "Available",
+      mrp: "₹ 1599/-",
+    },
+    {
+      image: hairdryer2,
+      name: "HAIR DRYER (1800 Watt) (6 Months Warranty)",
+      model: "DY-05",
+      availablevaraints: "Available",
+      mrp: "₹ 1599/-",
+    },
+    {
+      image: prodryer,
+      name: "PRO DRYER (1800 Watt) (6 Months Warranty)",
+      model: "HD-02",
+      availablevaraints: "Available",
+      mrp: "₹ 749/-",
+    },
+    {
+      image: professionaldryer,
+      name: "PROFESSIONAL DRYER 2200 Watt (6 Months Warranty)",
+      model: "HD-03",
+      availablevaraints: "Available",
+      mrp: "₹ 1499/-",
+    },
+    {
+      image: professionalhairstraightner,
+      name: "PROFESSIONAL HAIR STRAIGHTNER (6 Months Warranty)",
+      model: "HD-04",
+      availablevaraints: "Available",
+      mrp: "₹ 1399/-",
+    },
+    {
+      image: professionalhaircrimping,
+      name: "PROFESSIONAL HAIR CRIMPING (6 Months Warranty)",
+      model: "HD-05",
+      availablevaraints: "Available",
+      mrp: "₹ 1399/-",
     },
   ];
 
